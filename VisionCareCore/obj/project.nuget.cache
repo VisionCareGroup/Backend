@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "VHMv/Zw7gTU=",
+  "dgSpecHash": "WBYax/S4NoQ=",
   "success": true,
   "projectFilePath": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\VisionCareCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\azure.data.appconfiguration\\1.1.0\\azure.data.appconfiguration.1.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\azure.security.keyvault.secrets\\4.2.0\\azure.security.keyvault.secrets.4.2.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\entityframeworkcore.createdupdateddate\\8.0.0\\entityframeworkcore.createdupdateddate.8.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
@@ -89,6 +91,8 @@
     "C:\\Users\\User\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0\\microsoft.codeanalysis.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\4.5.0\\microsoft.codeanalysis.csharp.workspaces.4.5.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.5.0\\microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.configuration.configurationbuilders.azureappconfiguration\\3.0.0\\microsoft.configuration.configurationbuilders.azureappconfiguration.3.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.configuration.configurationbuilders.base\\3.0.0\\microsoft.configuration.configurationbuilders.base.3.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.6\\microsoft.data.sqlclient.5.1.6.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.1\\microsoft.data.sqlclient.sni.runtime.5.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.11\\microsoft.entityframeworkcore.8.0.11.nupkg.sha512",
@@ -256,5 +260,30 @@
     "C:\\Users\\User\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "El paquete \"Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration 3.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "projectPath": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\VisionCareCore.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\VisionCareCore.csproj",
+      "libraryId": "Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "El paquete \"Microsoft.Configuration.ConfigurationBuilders.Base 3.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "projectPath": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\VisionCareCore.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\VisionCareCore.csproj",
+      "libraryId": "Microsoft.Configuration.ConfigurationBuilders.Base",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
