@@ -6,7 +6,7 @@ namespace VisionCareCore.OpenAI.Interfaces.REST.Controllers
 {
 
     [ApiController]
-    [Route("vc/v1/[controller]")]
+    [Route("vc/v1/gpt")]
     public class GptController : ControllerBase
     {
         private readonly IGptService _gptService;
@@ -16,7 +16,7 @@ namespace VisionCareCore.OpenAI.Interfaces.REST.Controllers
             _gptService = gptService;
         }
 
-        [HttpPost("Test")]
+        [HttpPost("test")]
         public async Task<IActionResult> TestGpt([FromBody] GptRequest request)
         {
             var response = await _gptService.ProcessAsync(request);
