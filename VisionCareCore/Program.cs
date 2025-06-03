@@ -6,6 +6,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerUI;
+using VisionCareCore.OpenAI.Application.Internal.CommandServices;
+using VisionCareCore.OpenAI.Domain.Services;
+using VisionCareCore.OpenAI.Infrastructure.ExternalAPIs.OpenAI;
 using VisionCareCore.Shared.Domain.Repositories;
 using VisionCareCore.Shared.Infraestructure.Interfaces.ASP.Configuration;
 using VisionCareCore.Shared.Infraestructure.Persistences.EFC.Configuration;
@@ -160,6 +163,9 @@ builder.Services.AddScoped<IAuthUserQueryService, AuthUserQueryService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IHashingService, HashingService>();
 builder.Services.AddScoped<IIamContextFacade, IamContextFacade>();
+
+builder.Services.AddScoped<IGptClient, GptClient>();
+builder.Services.AddScoped<IGptService, GptCommandService>();
 
 var app = builder.Build();
 

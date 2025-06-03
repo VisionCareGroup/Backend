@@ -2521,6 +2521,15 @@
           }
         }
       },
+      "OpenAI-DotNet/8.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/OpenAI-DotNet.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/OpenAI-DotNet.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -7921,6 +7930,21 @@
         "postgresql.png"
       ]
     },
+    "OpenAI-DotNet/8.6.4": {
+      "sha512": "UCv4mwyvF7+utHwmkrzUGqkeKEBswW4Qh4v6D1tcjWFbPzrPrnHpNmEBy7bL0lDlpU/A3X4rXmT9OHXLu+uskA==",
+      "type": "package",
+      "path": "openai-dotnet/8.6.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/OpenAI-DotNet-Icon.png",
+        "LICENSE",
+        "README.md",
+        "lib/net8.0/OpenAI-DotNet.dll",
+        "openai-dotnet.8.6.4.nupkg.sha512",
+        "openai-dotnet.nuspec"
+      ]
+    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "sha512": "HdSSp5MnJSsg08KMfZThpuLPJpPwE5hBXvHwoKWosyHHfe8Mh5WKT0ylEOf6yNzX6Ngjxe4Whkafh5q7Ymac4Q==",
       "type": "package",
@@ -12261,6 +12285,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.11",
       "Microsoft.Extensions.Hosting >= 8.0.0",
       "Npgsql >= 8.0.6",
+      "OpenAI-DotNet >= 8.6.4",
       "Swashbuckle.AspNetCore >= 7.2.0",
       "Swashbuckle.AspNetCore.Annotations >= 7.0.0",
       "System.IdentityModel.Tokens.Jwt >= 8.2.1",
@@ -12268,23 +12293,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Moises\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Moises\\RiderProjects\\VisionCareCore\\VisionCareCore\\VisionCareCore.csproj",
+      "projectUniqueName": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\VisionCareCore.csproj",
       "projectName": "VisionCareCore",
-      "projectPath": "C:\\Users\\Moises\\RiderProjects\\VisionCareCore\\VisionCareCore\\VisionCareCore.csproj",
-      "packagesPath": "C:\\Users\\Moises\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Moises\\RiderProjects\\VisionCareCore\\VisionCareCore\\obj\\",
+      "projectPath": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\VisionCareCore.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Moises\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -12310,7 +12335,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -12374,6 +12400,10 @@
             "target": "Package",
             "version": "[8.0.6, )"
           },
+          "OpenAI-DotNet": {
+            "target": "Package",
+            "version": "[8.6.4, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[7.2.0, )"
@@ -12412,7 +12442,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
