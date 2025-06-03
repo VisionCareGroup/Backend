@@ -1,0 +1,106 @@
+[
+  {
+    "ContainingType": "VisionCareCore.User.Interfaces.REST.Controllers.AuthUserController",
+    "Method": "GetAuthAllUsers",
+    "RelativePath": "amsac/v1/auth-user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.User.Interfaces.REST.Controllers.AuthUserController",
+    "Method": "GetAuthUserById",
+    "RelativePath": "amsac/v1/auth-user/{authUserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authUserId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.User.Interfaces.REST.Controllers.AuthUserController",
+    "Method": "GetAuthenticatedUser",
+    "RelativePath": "amsac/v1/auth-user/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.User.Interfaces.REST.Controllers.AuthenticationController",
+    "Method": "RefreshToken",
+    "RelativePath": "amsac/v1/authentication/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.User.Interfaces.REST.Controllers.AuthenticationController",
+    "Method": "SignIn",
+    "RelativePath": "amsac/v1/authentication/sign-in",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "signInResource",
+        "Type": "VisionCareCore.User.Interfaces.REST.Resources.SignInResource",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.User.Interfaces.REST.Controllers.AuthenticationController",
+    "Method": "Logout",
+    "RelativePath": "amsac/v1/authentication/sign-out",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.User.Interfaces.REST.Controllers.AuthenticationController",
+    "Method": "SignUp",
+    "RelativePath": "amsac/v1/authentication/sign-up",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "signUpResource",
+        "Type": "VisionCareCore.User.Interfaces.REST.Resources.SignUpResource",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.OpenAI.Interfaces.REST.Controllers.GptController",
+    "Method": "TestGpt",
+    "RelativePath": "vc/v1/gpt/test",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "VisionCareCore.OpenAI.Interfaces.REST.Resources.GptRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
