@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\openai\\infrastructure\\externalapis\\openai\\gptclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\openai\\infrastructure\\externalapis\\openai\\gptclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -150,11 +150,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "VisionCareCore\\Properties\\launchSettings.json",
@@ -162,8 +162,7 @@
               "RelativeToolTip": "VisionCareCore\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-03T22:17:26.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T22:17:26.545Z"
             },
             {
               "$type": "Document",
@@ -175,8 +174,7 @@
               "RelativeToolTip": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResquest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:34:05.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T18:34:05.954Z"
             },
             {
               "$type": "Document",
@@ -188,8 +186,7 @@
               "RelativeToolTip": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Controllers\\GptController.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAcwBIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:31:37.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T18:31:37.236Z"
             },
             {
               "$type": "Document",
@@ -201,8 +198,7 @@
               "RelativeToolTip": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:34:49.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T18:34:49.632Z"
             },
             {
               "$type": "Document",
@@ -214,18 +210,17 @@
               "RelativeToolTip": "VisionCareCore\\Program.cs",
               "ViewState": "AgIAAKkAAAAAAAAAAAAiwMIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T04:39:32.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T04:39:32.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\appsettings.json",
               "RelativeDocumentMoniker": "VisionCareCore\\appsettings.json",
               "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\appsettings.json",
               "RelativeToolTip": "VisionCareCore\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-03T03:20:14.773Z",
               "EditorCaption": ""
@@ -240,8 +235,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Interfaces\\REST\\Controllers\\AuthenticationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T03:17:57.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T03:17:57.292Z"
             },
             {
               "$type": "Document",
@@ -253,18 +247,17 @@
               "RelativeToolTip": "VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\IGptClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:55:37.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T18:55:37.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GptClient.cs",
               "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
               "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
               "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
               "RelativeToolTip": "VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAcwB4AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T18:57:22.508Z",
               "EditorCaption": ""
@@ -279,8 +272,7 @@
               "RelativeToolTip": "VisionCareCore\\OpenAI\\Domain\\Services\\IGptService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:51:17.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T18:51:17.415Z"
             },
             {
               "$type": "Document",
@@ -292,8 +284,7 @@
               "RelativeToolTip": "VisionCareCore\\OpenAI\\Application\\Internal\\CommandServices\\GptCommandService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwA4AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:53:11.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T18:53:11.182Z"
             },
             {
               "$type": "Document",
@@ -305,8 +296,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Interfaces\\REST\\Controllers\\AuthUserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T03:18:51.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T03:18:51.81Z"
             },
             {
               "$type": "Document",
@@ -318,8 +308,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Interfaces\\REST\\Controllers\\BaseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T03:22:00.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T03:22:00.767Z"
             },
             {
               "$type": "Document",
@@ -331,8 +320,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Domain\\Model\\Aggregates\\AuthUser.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:56:34.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:56:34.83Z"
             },
             {
               "$type": "Document",
@@ -344,8 +332,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Domain\\Model\\Aggregates\\AuthUserRefreshToken.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:49:17.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T18:49:17.769Z"
             },
             {
               "$type": "Document",
@@ -357,8 +344,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Infraestructure\\Persistence\\EFC\\Repositories\\AuthUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:49:07.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T18:49:07.027Z"
             },
             {
               "$type": "Document",
@@ -370,8 +356,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Interfaces\\ACL\\Services\\IAMContextFacade.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:45:47.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T18:45:47.751Z"
             },
             {
               "$type": "Document",
@@ -383,8 +368,7 @@
               "RelativeToolTip": "VisionCareCore\\VisionCareCore.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-02T04:39:37.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T04:39:37.964Z"
             },
             {
               "$type": "Document",
@@ -396,8 +380,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Interfaces\\REST\\Transform\\SignInCommandFromResourceAssembler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:44:53.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T18:44:53.924Z"
             },
             {
               "$type": "Document",
@@ -409,8 +392,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Interfaces\\REST\\Transform\\AuthUserResourceFromEntityAssembler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:44:51.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T18:44:51.97Z"
             },
             {
               "$type": "Document",
@@ -422,8 +404,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Interfaces\\REST\\Resources\\ForgotPasswordRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:56:26.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:56:26.584Z"
             },
             {
               "$type": "Document",
@@ -435,8 +416,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Interfaces\\REST\\Resources\\AuthUserResource.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:56:27.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:56:27.417Z"
             },
             {
               "$type": "Document",
@@ -448,8 +428,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Interfaces\\REST\\Resources\\AuthenticatedUserResource.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:56:27.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:56:27.99Z"
             },
             {
               "$type": "Document",
@@ -461,8 +440,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Interfaces\\REST\\Resources\\ResetPasswordRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:56:25.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:56:25.919Z"
             },
             {
               "$type": "Document",
@@ -474,8 +452,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Interfaces\\REST\\Resources\\VerifyAccountRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:56:22.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:56:22.614Z"
             },
             {
               "$type": "Document",
@@ -487,8 +464,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Interfaces\\REST\\Resources\\SignUpResource.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:56:23.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:56:23.472Z"
             },
             {
               "$type": "Document",
@@ -500,8 +476,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Interfaces\\REST\\Resources\\SignInResource.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:56:24.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:56:24.634Z"
             },
             {
               "$type": "Document",
@@ -513,8 +488,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Domain\\Model\\Queries\\GetAuthUserByIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:55:51.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:55:51.606Z"
             },
             {
               "$type": "Document",
@@ -526,8 +500,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Domain\\Repositories\\IAuthUserRefreshTokenRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:55:56.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:55:56.912Z"
             },
             {
               "$type": "Document",
@@ -539,8 +512,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Domain\\Model\\Queries\\GetAllAuthUsersQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:55:50.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:55:50.594Z"
             },
             {
               "$type": "Document",
@@ -552,8 +524,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Domain\\Model\\Queries\\GetAuthUserByEmailQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:55:53.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:55:53.362Z"
             },
             {
               "$type": "Document",
@@ -565,8 +536,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Domain\\Model\\Commands\\LogoutRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:55:34.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:55:34.106Z"
             },
             {
               "$type": "Document",
@@ -578,8 +548,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Domain\\Model\\Commands\\SignInCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:55:37.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:55:37.926Z"
             },
             {
               "$type": "Document",
@@ -591,8 +560,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Domain\\Model\\Commands\\SignUpCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:55:46.133Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:55:46.133Z"
             },
             {
               "$type": "Document",
@@ -604,8 +572,7 @@
               "RelativeToolTip": "VisionCareCore\\User\\Domain\\Model\\Commands\\RefreshTokenRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:55:35.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:55:35.924Z"
             }
           ]
         }
