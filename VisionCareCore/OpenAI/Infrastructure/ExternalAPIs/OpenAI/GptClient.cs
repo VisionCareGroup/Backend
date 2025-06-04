@@ -14,8 +14,8 @@ namespace VisionCareCore.OpenAI.Infrastructure.ExternalAPIs.OpenAI
 
         public GptClient()
         {
-            _api = new OpenAIClient(Environment.GetEnvironmentVariable("OpenAI_Key"));
-            _assistantId = Environment.GetEnvironmentVariable("Assistant_Key");
+            _api = new OpenAIClient(Environment.GetEnvironmentVariable("APPSETTING_OpenAI_Key"));
+            _assistantId = Environment.GetEnvironmentVariable("APPSETTING_Assistant_Key");
 
             //Print the keys to the console for debugging purposes (remove in production)
             Console.WriteLine($"OpenAI_Key: {_api}");
