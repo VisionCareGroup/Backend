@@ -7,28 +7,24 @@
       "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\openai\\infrastructure\\externalapis\\openai\\gptclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\openai\\interfaces\\rest\\controllers\\gptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\openai\\interfaces\\rest\\controllers\\gptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\user\\interfaces\\rest\\controllers\\authusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\user\\interfaces\\rest\\controllers\\authusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\openai\\infrastructure\\externalapis\\openai\\igptclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\openai\\infrastructure\\externalapis\\openai\\igptclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\openai\\application\\internal\\commandservices\\gptcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\openai\\application\\internal\\commandservices\\gptcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\user\\interfaces\\rest\\controllers\\authusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\user\\interfaces\\rest\\controllers\\authusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\user\\interfaces\\rest\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,20 +35,24 @@
       "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\openai\\interfaces\\rest\\resources\\gptresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\user\\interfaces\\rest\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\user\\interfaces\\rest\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\openai\\infrastructure\\externalapis\\openai\\igptclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\openai\\infrastructure\\externalapis\\openai\\igptclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\openai\\interfaces\\rest\\resources\\gptresquest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\openai\\interfaces\\rest\\resources\\gptresquest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\openai\\interfaces\\rest\\controllers\\gptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\openai\\interfaces\\rest\\controllers\\gptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\openai\\domain\\services\\igptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\openai\\domain\\services\\igptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\user\\interfaces\\rest\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\user\\interfaces\\rest\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\backend\\visioncarecore\\visioncarecore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -149,57 +149,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "DockedWidth": 241,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "VisionCareCore\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\Properties\\launchSettings.json",
-              "RelativeToolTip": "VisionCareCore\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-03T22:17:26.545Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GptResquest.cs",
-              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResquest.cs",
-              "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResquest.cs",
-              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResquest.cs",
-              "RelativeToolTip": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResquest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:34:05.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GptController.cs",
-              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Controllers\\GptController.cs",
-              "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Controllers\\GptController.cs",
-              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Controllers\\GptController.cs",
-              "RelativeToolTip": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Controllers\\GptController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:31:37.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GptResponse.cs",
-              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResponse.cs",
-              "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResponse.cs",
-              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResponse.cs",
-              "RelativeToolTip": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:34:49.632Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -208,13 +160,13 @@
               "RelativeDocumentMoniker": "VisionCareCore\\Program.cs",
               "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\Program.cs",
               "RelativeToolTip": "VisionCareCore\\Program.cs",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAiwMIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T04:39:32.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\appsettings.json",
               "RelativeDocumentMoniker": "VisionCareCore\\appsettings.json",
@@ -226,7 +178,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
+              "Title": "GptResquest.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResquest.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResquest.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResquest.cs",
+              "RelativeToolTip": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResquest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:34:05.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "VisionCareCore\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\Properties\\launchSettings.json",
+              "RelativeToolTip": "VisionCareCore\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T22:17:26.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\User\\Interfaces\\REST\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "VisionCareCore\\User\\Interfaces\\REST\\Controllers\\AuthenticationController.cs",
@@ -238,7 +214,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "GptClient.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
+              "RelativeToolTip": "VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:57:22.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GptController.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Controllers\\GptController.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Controllers\\GptController.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Controllers\\GptController.cs",
+              "RelativeToolTip": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Controllers\\GptController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:31:37.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GptResponse.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResponse.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResponse.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResponse.cs",
+              "RelativeToolTip": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T18:34:49.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IGptClient.cs",
               "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\IGptClient.cs",
               "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\IGptClient.cs",
@@ -250,20 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GptClient.cs",
-              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
-              "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
-              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
-              "RelativeToolTip": "VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T18:57:22.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IGptService.cs",
               "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Domain\\Services\\IGptService.cs",
               "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Domain\\Services\\IGptService.cs",
@@ -281,25 +281,13 @@
               "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Application\\Internal\\CommandServices\\GptCommandService.cs",
               "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\OpenAI\\Application\\Internal\\CommandServices\\GptCommandService.cs",
               "RelativeToolTip": "VisionCareCore\\OpenAI\\Application\\Internal\\CommandServices\\GptCommandService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA4AAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T18:53:11.182Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthUserController.cs",
-              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\User\\Interfaces\\REST\\Controllers\\AuthUserController.cs",
-              "RelativeDocumentMoniker": "VisionCareCore\\User\\Interfaces\\REST\\Controllers\\AuthUserController.cs",
-              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\User\\Interfaces\\REST\\Controllers\\AuthUserController.cs",
-              "RelativeToolTip": "VisionCareCore\\User\\Interfaces\\REST\\Controllers\\AuthUserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T03:18:51.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "BaseController.cs",
               "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\User\\Interfaces\\REST\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "VisionCareCore\\User\\Interfaces\\REST\\Controllers\\BaseController.cs",
@@ -572,6 +560,25 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T16:55:35.924Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 159,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthUserController.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\User\\Interfaces\\REST\\Controllers\\AuthUserController.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\User\\Interfaces\\REST\\Controllers\\AuthUserController.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\User\\Interfaces\\REST\\Controllers\\AuthUserController.cs",
+              "RelativeToolTip": "VisionCareCore\\User\\Interfaces\\REST\\Controllers\\AuthUserController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T03:18:51.81Z",
+              "EditorCaption": ""
             }
           ]
         }

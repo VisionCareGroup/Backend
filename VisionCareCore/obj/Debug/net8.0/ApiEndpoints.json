@@ -102,5 +102,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.OpenAI.Interfaces.REST.Controllers.GptController",
+    "Method": "TestConnection",
+    "RelativePath": "vc/v1/gpt/test-connection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
