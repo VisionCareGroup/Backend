@@ -12,14 +12,19 @@ namespace VisionCareCore.OpenAI.Infrastructure.ExternalAPIs.OpenAI
         private readonly string _assistantId;
 
 
-        public GptClient(IConfiguration config)
+        public GptClient()
         {
-            _api = new OpenAIClient(config["OpenAI:ApiKey"]);
-            _assistantId = config["OpenAI:AssistantId"];
+            _api = new OpenAIClient(Environment.GetEnvironmentVariable("APPSETTING_OpenAI_Key"));
+            _assistantId = Environment.GetEnvironmentVariable("APPSETTING_Assistant_Key");
+
+            //Print the keys to the console for debugging purposes (remove in production)
+            Console.WriteLine($"OpenAI_Key: {_api}");
+            Console.WriteLine($"Assistant_Key: {_assistantId}");
         }
 
         public async Task<GptResponse> SendRequestAsync(GptRequest request)
         {
+
             var assistant = await _api.AssistantsEndpoint.RetrieveAssistantAsync(_assistantId);
 
            

@@ -178,6 +178,18 @@
           }
         }
       }
+    },
+    "/vc/v1/gpt/test-connection": {
+      "get": {
+        "tags": [
+          "Gpt"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
