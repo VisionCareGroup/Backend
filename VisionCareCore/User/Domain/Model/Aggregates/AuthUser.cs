@@ -30,7 +30,7 @@ public class AuthUser(string email, string passwordHash, string name, string las
 
     public VisualImpairmentLevel VisualImpairment { get; set; } = visualImpairment;
 
-    public bool IsActive { get; private set; } = false;
+    public bool IsActive { get; private set; } = true;
 
     public List<AuthUserRefreshToken> RefreshTokens { get; set; } = new();
 

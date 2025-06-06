@@ -31,10 +31,10 @@ public class AuthenticationController(
             return Unauthorized(new { message = "Usuario o contraseña incorrectos" });
         }
 
-        if (!user.IsActive)
-        {
-            return Unauthorized(new { message = "Tu cuenta aún no ha sido activada." });
-        }
+        //  if (!user.IsActive)
+        //  {
+        //      return Unauthorized(new { message = "Tu cuenta aún no ha sido activada." });
+        //  }
 
         var jwtToken = tokenService.GenerateToken(user);
         var refreshToken = tokenService.GenerateRefreshToken();
