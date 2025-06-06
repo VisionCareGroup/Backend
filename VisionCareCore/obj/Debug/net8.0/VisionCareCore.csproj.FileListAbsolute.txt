@@ -410,3 +410,7 @@ D:\Programas\UPC\VisionCare\Backend\Backend\VisionCareCore\obj\Debug\net8.0\refi
 D:\Programas\UPC\VisionCare\Backend\Backend\VisionCareCore\obj\Debug\net8.0\VisionCareCore.pdb
 D:\Programas\UPC\VisionCare\Backend\Backend\VisionCareCore\obj\Debug\net8.0\VisionCareCore.genruntimeconfig.cache
 D:\Programas\UPC\VisionCare\Backend\Backend\VisionCareCore\obj\Debug\net8.0\ref\VisionCareCore.dll
+D:\Programas\UPC\VisionCare\Backend\Backend\VisionCareCore\bin\Debug\net8.0\Azure.Data.AppConfiguration.dll
+D:\Programas\UPC\VisionCare\Backend\Backend\VisionCareCore\bin\Debug\net8.0\Azure.Security.KeyVault.Secrets.dll
+D:\Programas\UPC\VisionCare\Backend\Backend\VisionCareCore\bin\Debug\net8.0\Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration.dll
+D:\Programas\UPC\VisionCare\Backend\Backend\VisionCareCore\bin\Debug\net8.0\Microsoft.Configuration.ConfigurationBuilders.Base.dll
