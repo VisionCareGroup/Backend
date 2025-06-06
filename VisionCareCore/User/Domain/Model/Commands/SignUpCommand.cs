@@ -1,3 +1,12 @@
-﻿namespace VisionCareCore.User.Domain.Model.Commands;
+﻿using VisionCareCore.User.Domain.Model.Aggregates;
 
-public record SignUpCommand(string Email, string Password, string Name,string LastName, string RegisterArea, DateTime DateCreatedAt, string Role = "User");
+namespace VisionCareCore.User.Domain.Model.Commands;
+
+public record SignUpCommand(
+    string Email,
+    string Password,
+    string Name,
+    string LastName,
+    DateTime DateCreatedAt,
+    VisualImpairmentLevel VisualImpairment
+);

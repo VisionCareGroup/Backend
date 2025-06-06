@@ -49,8 +49,13 @@ public class AuthUserCommandService(
             throw new Exception($"Email {command.Email} is already taken");
 
         var hashedPassword = hashingService.HashPassword(command.Password);
-        var user = new AuthUser(command.Email, hashedPassword,command.Name,command.LastName,command.RegisterArea,command.DateCreatedAt,command.Role);
-        try
+        var user = new AuthUser(
+            command.Email,
+            hashedPassword,
+            command.Name,
+            command.LastName,
+            command.DateCreatedAt,
+            command.VisualImpairment);        try
         {
             await userRepository.AddAsync(user);
             await unitOfWork.CompleteAsync();

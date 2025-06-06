@@ -1,4 +1,5 @@
-﻿using VisionCareCore.User.Domain.Model.Commands;
+﻿using VisionCareCore.User.Domain.Model.Aggregates;
+using VisionCareCore.User.Domain.Model.Commands;
 using VisionCareCore.User.Domain.Model.Queries;
 using VisionCareCore.User.Domain.Services;
 
@@ -6,9 +7,11 @@ namespace VisionCareCore.User.Interfaces.ACL.Services;
 
 public class IamContextFacade(IAuthUserCommandService userCommandService, IAuthUserQueryService userQueryService) : IIamContextFacade
 {
-    public async Task<Guid> CreateAuthUser(string email, string password,string name,string lastname,string registerArea,DateTime dateCreated,string role)
+    public async Task<Guid> CreateAuthUser(
+        string email, string password, string name,
+        string lastname, DateTime dateCreated, VisualImpairmentLevel visualImpairment)
     {
-        var signUpCommand = new SignUpCommand(email, password,name,lastname,registerArea,dateCreated,role);
+        var signUpCommand = new SignUpCommand(email, password, name, lastname, dateCreated, visualImpairment);
         await userCommandService.Handle(signUpCommand);
         var getUserByUsernameQuery = new GetAuthUserByEmailQuery(email);
         var result = await userQueryService.Handle(getUserByUsernameQuery);
