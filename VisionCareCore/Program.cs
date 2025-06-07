@@ -6,6 +6,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerUI;
+using VisionCareCore.HealthCare.Application.Internal.CommandServices;
+using VisionCareCore.HealthCare.Application.Internal.QueryServices;
+using VisionCareCore.HealthCare.Domain.Repositories;
+using VisionCareCore.HealthCare.Domain.Services;
+using VisionCareCore.HealthCare.Infrastructure.Persistence.EFC.Repositories;
 using VisionCareCore.Shared.Domain.Repositories;
 using VisionCareCore.Shared.Infraestructure.Interfaces.ASP.Configuration;
 using VisionCareCore.Shared.Infraestructure.Persistences.EFC.Configuration;
@@ -160,6 +165,16 @@ builder.Services.AddScoped<IAuthUserQueryService, AuthUserQueryService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IHashingService, HashingService>();
 builder.Services.AddScoped<IIamContextFacade, IamContextFacade>();
+// Repositorio de Medicina
+builder.Services.AddScoped<IMedicineRepository, MedicineRepository>();
+
+// Command Service de Medicina
+builder.Services.AddScoped<IMedicineCommandService, MedicineCommandService>();
+
+// Query Service de Medicina
+builder.Services.AddScoped<IMedicineQueryService, MedicineQueryService>();
+
+
 
 var app = builder.Build();
 
