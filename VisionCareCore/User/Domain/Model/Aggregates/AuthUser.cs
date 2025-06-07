@@ -10,29 +10,46 @@ public enum VisualImpairmentLevel
     Severa
 }
 
-public class AuthUser(string email, string passwordHash, string name, string lastname, DateTime registeredAt, VisualImpairmentLevel visualImpairment)
+public class AuthUser
 {
-    public AuthUser()
-        : this(string.Empty, string.Empty, string.Empty, string.Empty, DateTime.UtcNow, VisualImpairmentLevel.Leve) { }
-
     public Guid Id { get; }
 
-    public string Email { get; private set; } = email;
+    public string Email { get; private set; }
 
     [JsonIgnore]
-    public string PasswordHash { get; private set; } = passwordHash;
+    public string PasswordHash { get; private set; }
 
-    public string Name { get; private set; } = name;
+    public string Name { get; private set; }
 
-    public string LastName { get; private set; } = lastname;
+    public string LastName { get; private set; }
 
-    public DateTime RegisteredAt { get; set; } = registeredAt;
+    public DateTime Birthday { get; private set; }
 
-    public VisualImpairmentLevel VisualImpairment { get; set; } = visualImpairment;
+    public DateTime RegisteredAt { get; private set; }
+
+    public VisualImpairmentLevel VisualImpairment { get; private set; }
 
     public bool IsActive { get; private set; } = true;
 
-    public List<AuthUserRefreshToken> RefreshTokens { get; set; } = new();
+    public bool IsDeleted { get; private set; } = false;
+
+    public List<AuthUserRefreshToken> RefreshTokens { get; private set; } = new();
+
+    // Constructor principal
+    public AuthUser(string email, string passwordHash, string name, string lastname, DateTime birthday, DateTime registeredAt, VisualImpairmentLevel visualImpairment)
+    {
+        Email = email;
+        PasswordHash = passwordHash;
+        Name = name;
+        LastName = lastname;
+        Birthday = birthday;
+        RegisteredAt = registeredAt;
+        VisualImpairment = visualImpairment;
+    }
+
+    // Constructor vacío
+    public AuthUser()
+        : this(string.Empty, string.Empty, string.Empty, string.Empty, DateTime.UtcNow, DateTime.UtcNow, VisualImpairmentLevel.Leve) { }
 
     public AuthUser UpdateEmail(string email)
     {
@@ -49,5 +66,15 @@ public class AuthUser(string email, string passwordHash, string name, string las
     public void SetPassword(string newPassword)
     {
         PasswordHash = BCrypt.Net.BCrypt.HashPassword(newPassword);
+    }
+
+    public void Delete()
+    {
+        IsDeleted = true;
+    }
+
+    public void Restore()
+    {
+        IsDeleted = false;
     }
 }

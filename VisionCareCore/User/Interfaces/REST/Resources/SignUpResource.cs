@@ -7,5 +7,6 @@ public record SignUpResource(
     string Password,
     string Name,
     string LastName,
+    DateTime Birthday,
     string VisualImpairment
 );

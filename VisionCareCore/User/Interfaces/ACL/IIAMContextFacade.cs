@@ -9,6 +9,7 @@ public interface IIamContextFacade
         string password,
         string name,
         string lastname,
+        DateTime birthday,
         DateTime dateCreatedAt,
         VisualImpairmentLevel visualImpairment);    Task<Guid> FetchAuthUserIdByEmail(string email);
     Task<string> FetchAuthUsernameByUserId(Guid userId);

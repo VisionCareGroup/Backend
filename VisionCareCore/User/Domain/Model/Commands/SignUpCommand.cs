@@ -7,6 +7,7 @@ public record SignUpCommand(
     string Password,
     string Name,
     string LastName,
+    DateTime Birthday,              
     DateTime DateCreatedAt,
     VisualImpairmentLevel VisualImpairment
 );

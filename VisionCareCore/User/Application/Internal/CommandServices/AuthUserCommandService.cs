@@ -54,6 +54,7 @@ public class AuthUserCommandService(
             hashedPassword,
             command.Name,
             command.LastName,
+            command.Birthday,
             command.DateCreatedAt,
             command.VisualImpairment);        try
         {

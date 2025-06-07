@@ -33,4 +33,11 @@
         <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.2.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="HealthCare\Application\" />
+      <Folder Include="HealthCare\Domain\" />
+      <Folder Include="HealthCare\Infrastructure\" />
+      <Folder Include="HealthCare\Interfaces\" />
+    </ItemGroup>
+
 </Project>

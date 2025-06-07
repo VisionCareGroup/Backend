@@ -21,6 +21,7 @@ public static class SignUpCommandFromResourceAssembler
             resource.Password,
             resource.Name,
             resource.LastName,
+            resource.Birthday,
             DateTime.UtcNow,
             parsedLevel
         );

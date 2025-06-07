@@ -9,15 +9,25 @@ public class IamContextFacade(IAuthUserCommandService userCommandService, IAuthU
 {
     public async Task<Guid> CreateAuthUser(
         string email, string password, string name,
-        string lastname, DateTime dateCreated, VisualImpairmentLevel visualImpairment)
+        string lastname, DateTime birthday, DateTime dateCreated, VisualImpairmentLevel visualImpairment)
     {
-        var signUpCommand = new SignUpCommand(email, password, name, lastname, dateCreated, visualImpairment);
+        var signUpCommand = new SignUpCommand(
+            email,
+            password,
+            name,
+            lastname,
+            birthday,
+            dateCreated,
+            visualImpairment);
+
         await userCommandService.Handle(signUpCommand);
+
         var getUserByUsernameQuery = new GetAuthUserByEmailQuery(email);
         var result = await userQueryService.Handle(getUserByUsernameQuery);
+    
         return result?.Id ?? Guid.Empty;
-
     }
+
 
     public async Task<Guid> FetchAuthUserIdByEmail(string email)
     {
