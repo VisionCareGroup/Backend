@@ -24,6 +24,9 @@ using VisionCareCore.User.Infraestructure.Tokens.JWT.Configurations;
 using VisionCareCore.User.Infraestructure.Tokens.JWT.Services;
 using VisionCareCore.User.Interfaces.ACL;
 using VisionCareCore.User.Interfaces.ACL.Services;
+using VisionCareCore.Vision.Application.Internal.CommandServices;
+using VisionCareCore.Vision.Domain.Services;
+using VisionCareCore.Vision.Infrastructure.ExternalAPIs.Azure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -173,6 +176,9 @@ builder.Services.AddScoped<IIamContextFacade, IamContextFacade>();
 
 builder.Services.AddScoped<IGptClient, GptClient>();
 builder.Services.AddScoped<IGptService, GptCommandService>();
+
+builder.Services.AddScoped<IVisionService, VisionCommandService>();
+builder.Services.AddScoped<IVisionClient, VisionClient>();
 
 var app = builder.Build();
 
