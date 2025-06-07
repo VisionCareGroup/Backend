@@ -34,10 +34,13 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="HealthCare\Application\" />
-      <Folder Include="HealthCare\Domain\" />
-      <Folder Include="HealthCare\Infrastructure\" />
-      <Folder Include="HealthCare\Interfaces\" />
+      <Folder Include="HealthCare\Application\Internal\CommandServices\" />
+      <Folder Include="HealthCare\Application\Internal\QueryServices\" />
+      <Folder Include="HealthCare\Domain\Services\" />
+      <Folder Include="HealthCare\Infrastructure\Persistence\EFC\Repositories\" />
+      <Folder Include="HealthCare\Interfaces\Controllers\" />
+      <Folder Include="HealthCare\Interfaces\Resources\" />
+      <Folder Include="HealthCare\Interfaces\Transform\" />
     </ItemGroup>
 
 </Project>
