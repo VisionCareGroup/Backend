@@ -13,7 +13,7 @@ public static class CreateMedicineTransform
             resource.SideEffects,
             resource.Warnings,
             resource.UserId,
-            resource.MedicineTimeId
-        );
+            resource.Instruccions 
+            );
     }
 }

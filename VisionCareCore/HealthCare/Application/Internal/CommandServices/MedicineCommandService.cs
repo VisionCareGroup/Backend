@@ -28,7 +28,8 @@ public class MedicineCommandService : IMedicineCommandService
             command.SideEffects,
             command.Warnings,
             command.UserId,
-            command.MedicineTimeId);
+            command.Instruccions
+        );
 
         await _medicineRepository.AddAsync(medicine);
         await _unitOfWork.CompleteAsync();

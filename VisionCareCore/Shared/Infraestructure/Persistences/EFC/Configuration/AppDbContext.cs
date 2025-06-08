@@ -61,7 +61,6 @@ namespace VisionCareCore.Shared.Infraestructure.Persistences.EFC.Configuration
                 medicine.Property(m => m.Warnings).HasMaxLength(500);
                 medicine.Property(m => m.IsDeleted).IsRequired();
                 medicine.Property(m => m.UserId).IsRequired();
-                medicine.Property(m => m.MedicineTimeId).IsRequired();
             });
 
             

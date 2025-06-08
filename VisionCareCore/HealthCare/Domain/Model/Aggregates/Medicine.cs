@@ -9,6 +9,7 @@ namespace VisionCareCore.HealthCare.Domain.Model.Aggregates
         public string Description { get; private set; }
         public string SideEffects { get; private set; }
         public string Warnings { get; private set; }
+        public int? Instruccions { get; private set; } // ← nuevo campo
         public bool IsDeleted { get; private set; }
 
         public Guid UserId { get; private set; }
@@ -17,13 +18,20 @@ namespace VisionCareCore.HealthCare.Domain.Model.Aggregates
         private readonly List<MedicineTime> _medicineTimes = new();
         public IReadOnlyCollection<MedicineTime> MedicineTimes => _medicineTimes;
 
-        public Medicine(string nombre, string description, string sideEffects, string warnings, Guid userId)
+        public Medicine(
+            string nombre,
+            string description,
+            string sideEffects,
+            string warnings,
+            Guid userId,
+            int? instruccions = null)
         {
             Id = Guid.NewGuid();
             Nombre = nombre;
             Description = description;
             SideEffects = sideEffects;
             Warnings = warnings;
+            Instruccions = instruccions;
             IsDeleted = false;
             UserId = userId;
         }
@@ -33,12 +41,13 @@ namespace VisionCareCore.HealthCare.Domain.Model.Aggregates
             IsDeleted = true;
         }
 
-        public void UpdateInfo(string nombre, string description, string sideEffects, string warnings)
+        public void UpdateInfo(string nombre, string description, string sideEffects, string warnings, int? instruccions = null)
         {
             Nombre = nombre;
             Description = description;
             SideEffects = sideEffects;
             Warnings = warnings;
+            Instruccions = instruccions;
         }
 
         // Métodos de dominio para manejar tiempos
