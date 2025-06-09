@@ -1,6 +1,10 @@
+using VisionCareCore.HealthCare.Domain.Model.ValueObjects;
+
 namespace VisionCareCore.HealthCare.Domain.Model.Commands;
 
-public class CreateMedicineTimeCommand
-{
-    
-}
+public record CreateMedicineTimeCommand(
+    Guid MedicineId,
+    Foods Foods,
+    TimeOnly? SpecificTime,
+    Interval? Interval
+);

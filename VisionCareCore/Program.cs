@@ -174,7 +174,14 @@ builder.Services.AddScoped<IMedicineCommandService, MedicineCommandService>();
 // Query Service de Medicina
 builder.Services.AddScoped<IMedicineQueryService, MedicineQueryService>();
 
+// Repositorio de MedicineTime
+builder.Services.AddScoped<IMedicineTimeRepository, MedicineTimeRepository>();
 
+// Command Service de MedicineTime
+builder.Services.AddScoped<IMedicineTimeCommandService, MedicineTimeCommandService>();
+
+// Query Service de MedicineTime
+builder.Services.AddScoped<IMedicineTimeQueryService, MedicineTimeQueryService>();
 
 var app = builder.Build();
 

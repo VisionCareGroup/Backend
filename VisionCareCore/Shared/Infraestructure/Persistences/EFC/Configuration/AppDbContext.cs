@@ -2,6 +2,8 @@
 using EntityFrameworkCore.CreatedUpdatedDate.Extensions;
 using Microsoft.EntityFrameworkCore;
 using VisionCareCore.HealthCare.Domain.Model.Aggregates;
+using VisionCareCore.HealthCare.Domain.Model.Entities;
+using VisionCareCore.HealthCare.Domain.Model.ValueObjects;
 using VisionCareCore.User.Domain.Model.Aggregates;
 
 
@@ -26,6 +28,7 @@ namespace VisionCareCore.Shared.Infraestructure.Persistences.EFC.Configuration
         public DbSet<AuthUser> AuthUsers { get; set; }
         public DbSet<AuthUserRefreshToken> AuthUsersRefreshTokens { get; set; }
         public DbSet<Medicine> Medicines { get; set; }
+        public DbSet<MedicineTime> MedicineTimes { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder builder)
@@ -52,6 +55,7 @@ namespace VisionCareCore.Shared.Infraestructure.Persistences.EFC.Configuration
                     .HasForeignKey(rt => rt.UserId)
                     .OnDelete(DeleteBehavior.Cascade);
             });
+            // Medicine
             builder.Entity<Medicine>(medicine =>
             {
                 medicine.HasKey(m => m.Id);
@@ -60,10 +64,34 @@ namespace VisionCareCore.Shared.Infraestructure.Persistences.EFC.Configuration
                 medicine.Property(m => m.SideEffects).HasMaxLength(500);
                 medicine.Property(m => m.Warnings).HasMaxLength(500);
                 medicine.Property(m => m.IsDeleted).IsRequired();
+                medicine.Property(m => m.Instruccions);
                 medicine.Property(m => m.UserId).IsRequired();
             });
 
-            
+            builder.Entity<MedicineTime>(mt =>
+            {
+                mt.HasKey(x => x.Id);
+
+                mt.Property(x => x.Foods)
+                    .HasConversion<int>()
+                    .IsRequired();
+
+                mt.Property(x => x.Interval)
+                    .HasConversion<int>()
+                    .IsRequired(false);
+
+                mt.Property(x => x.SpecificTime)
+                    .HasColumnType("time")
+                    .IsRequired(false);
+
+                mt.Property(x => x.IsDeleted)
+                    .IsRequired();
+
+                mt.HasOne(x => x.Medicine)
+                    .WithMany(m => m.MedicineTimes)
+                    .HasForeignKey(x => x.MedicineId)
+                    .OnDelete(DeleteBehavior.Cascade);
+            });
             
         }
             
