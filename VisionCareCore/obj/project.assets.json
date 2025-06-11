@@ -2,16 +2,34 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Azure.Core/1.38.0": {
+      "Azure.AI.Vision.ImageAnalysis/1.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
-          "System.ClientModel": "1.0.0",
+          "Azure.Core": "1.44.1",
+          "System.ClientModel": "1.2.1",
+          "System.Text.Json": "6.0.10"
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.AI.Vision.ImageAnalysis.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.AI.Vision.ImageAnalysis.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Core/1.44.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
+          "System.ClientModel": "1.1.0",
           "System.Diagnostics.DiagnosticSource": "6.0.1",
-          "System.Memory.Data": "1.0.2",
+          "System.Memory.Data": "6.0.0",
           "System.Numerics.Vectors": "4.5.0",
-          "System.Text.Encodings.Web": "4.7.2",
-          "System.Text.Json": "4.7.2",
+          "System.Text.Encodings.Web": "6.0.0",
+          "System.Text.Json": "6.0.10",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
@@ -21,6 +39,24 @@
         },
         "runtime": {
           "lib/net6.0/Azure.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Data.AppConfiguration/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.16.0",
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "System.Text.Json": "4.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.Data.AppConfiguration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Data.AppConfiguration.dll": {
             "related": ".xml"
           }
         }
@@ -43,6 +79,25 @@
         },
         "runtime": {
           "lib/netstandard2.0/Azure.Identity.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Security.KeyVault.Secrets/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.15.0",
+          "System.Memory": "4.5.4",
+          "System.Text.Json": "4.6.0",
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.dll": {
             "related": ".xml"
           }
         }
@@ -1367,6 +1422,38 @@
           }
         }
       },
+      "Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Data.AppConfiguration": "1.1.0",
+          "Azure.Identity": "1.2.1",
+          "Azure.Security.KeyVault.Secrets": "4.2.0",
+          "Microsoft.Configuration.ConfigurationBuilders.Base": "3.0.0"
+        },
+        "compile": {
+          "lib/Net471/Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Net471/Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Configuration.ConfigurationBuilders.Base/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/Net471/Microsoft.Configuration.ConfigurationBuilders.Base.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Net471/Microsoft.Configuration.ConfigurationBuilders.Base.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Data.SqlClient/5.1.6": {
         "type": "package",
         "dependencies": {
@@ -2521,6 +2608,15 @@
           }
         }
       },
+      "OpenAI-DotNet/8.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/OpenAI-DotNet.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/OpenAI-DotNet.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -2797,11 +2893,11 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "System.ClientModel/1.0.0": {
+      "System.ClientModel/1.2.1": {
         "type": "package",
         "dependencies": {
-          "System.Memory.Data": "1.0.2",
-          "System.Text.Json": "4.7.2"
+          "System.Memory.Data": "6.0.0",
+          "System.Text.Json": "6.0.10"
         },
         "compile": {
           "lib/net6.0/System.ClientModel.dll": {
@@ -3395,21 +3491,23 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "System.Memory.Data/1.0.2": {
+      "System.Memory.Data/6.0.0": {
         "type": "package",
         "dependencies": {
-          "System.Text.Encodings.Web": "4.7.2",
-          "System.Text.Json": "4.6.0"
+          "System.Text.Json": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.Data.dll": {
+          "lib/net6.0/System.Memory.Data.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.Data.dll": {
+          "lib/net6.0/System.Memory.Data.dll": {
             "related": ".xml"
           }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Net.Http/4.3.0": {
@@ -4352,16 +4450,32 @@
     }
   },
   "libraries": {
-    "Azure.Core/1.38.0": {
-      "sha512": "IuEgCoVA0ef7E4pQtpC3+TkPbzaoQfa77HlfJDmfuaJUCVJmn7fT0izamZiryW5sYUFKizsftIxMkXKbgIcPMQ==",
+    "Azure.AI.Vision.ImageAnalysis/1.0.0": {
+      "sha512": "ImGqg6uroJT0baxiRDq0mADC/xuv0k6i56i9pJG6adKMXKKc8HUbNNvYdvEnzn8GezmiKZXpt1G6+wPAopGJrw==",
       "type": "package",
-      "path": "azure.core/1.38.0",
+      "path": "azure.ai.vision.imageanalysis/1.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGELOG.md",
         "README.md",
-        "azure.core.1.38.0.nupkg.sha512",
+        "azure.ai.vision.imageanalysis.1.0.0.nupkg.sha512",
+        "azure.ai.vision.imageanalysis.nuspec",
+        "azureicon.png",
+        "lib/netstandard2.0/Azure.AI.Vision.ImageAnalysis.dll",
+        "lib/netstandard2.0/Azure.AI.Vision.ImageAnalysis.xml"
+      ]
+    },
+    "Azure.Core/1.44.1": {
+      "sha512": "YyznXLQZCregzHvioip07/BkzjuWNXogJEVz9T5W6TwjNr17ax41YGzYMptlo2G10oLCuVPoyva62y0SIRDixg==",
+      "type": "package",
+      "path": "azure.core/1.44.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.core.1.44.1.nupkg.sha512",
         "azure.core.nuspec",
         "azureicon.png",
         "lib/net461/Azure.Core.dll",
@@ -4372,6 +4486,22 @@
         "lib/net6.0/Azure.Core.xml",
         "lib/netstandard2.0/Azure.Core.dll",
         "lib/netstandard2.0/Azure.Core.xml"
+      ]
+    },
+    "Azure.Data.AppConfiguration/1.1.0": {
+      "sha512": "nK3CtxS35QpYfqOoNDcsNmpgxoFKFTsZJ9yfPev5d6HUGYCjF+xwOmlKoHiZ/UnQN80tIsBT20gDNcF8k3SbVQ==",
+      "type": "package",
+      "path": "azure.data.appconfiguration/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.data.appconfiguration.1.1.0.nupkg.sha512",
+        "azure.data.appconfiguration.nuspec",
+        "lib/netstandard2.0/Azure.Data.AppConfiguration.dll",
+        "lib/netstandard2.0/Azure.Data.AppConfiguration.xml",
+        "pkgicon.png"
       ]
     },
     "Azure.Identity/1.11.4": {
@@ -4388,6 +4518,22 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Azure.Security.KeyVault.Secrets/4.2.0": {
+      "sha512": "ujVMKVzEtVNQom5A0iEXSDovNGoSidV0RO5QlOBFfcIZlXwFnBmO5OhOfS4D/F1gbMNCCFS3re39qd/Bgh6+QQ==",
+      "type": "package",
+      "path": "azure.security.keyvault.secrets/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.security.keyvault.secrets.4.2.0.nupkg.sha512",
+        "azure.security.keyvault.secrets.nuspec",
+        "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.dll",
+        "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.xml",
+        "pkgicon.png"
       ]
     },
     "BCrypt.Net-Next/4.0.3": {
@@ -6104,6 +6250,48 @@
         "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll",
         "microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
         "microsoft.codeanalysis.workspaces.common.nuspec"
+      ]
+    },
+    "Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration/3.0.0": {
+      "sha512": "I4i/wDHVB1yS1ZlHp7nBBAmyXQtzhcyzv8ErbWhTzSfMAWzUneV+0OYiRahWCtquCObTDHB8hxfE0juwZOIZgw==",
+      "type": "package",
+      "path": "microsoft.configuration.configurationbuilders.azureappconfiguration/3.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Net471/app.config.install.xdt",
+        "content/Net471/app.config.uninstall.xdt",
+        "content/Net471/web.config.install.xdt",
+        "content/Net471/web.config.uninstall.xdt",
+        "docs/Readme.md",
+        "images/dotnet-icon.png",
+        "lib/Net471/Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration.dll",
+        "lib/Net471/Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration.xml",
+        "microsoft.configuration.configurationbuilders.azureappconfiguration.3.0.0.nupkg.sha512",
+        "microsoft.configuration.configurationbuilders.azureappconfiguration.nuspec",
+        "tools/Net471/Install.ps1",
+        "tools/Net471/KeyValueConfigBuildersCommon.ps1",
+        "tools/Net471/Uninstall.ps1"
+      ]
+    },
+    "Microsoft.Configuration.ConfigurationBuilders.Base/3.0.0": {
+      "sha512": "0+5ACMOxpx/XRowlxzdzjYqGG9Q0kEh0VKnVFzeF1nkSu98W64jVa5UDcxSPGDbqAvkv14/W6sMWP43TkZAX5w==",
+      "type": "package",
+      "path": "microsoft.configuration.configurationbuilders.base/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Net471/app.config.install.xdt",
+        "content/Net471/app.config.uninstall.xdt",
+        "content/Net471/web.config.install.xdt",
+        "content/Net471/web.config.uninstall.xdt",
+        "docs/Readme.md",
+        "images/dotnet-icon.png",
+        "lib/Net471/Microsoft.Configuration.ConfigurationBuilders.Base.dll",
+        "lib/Net471/Microsoft.Configuration.ConfigurationBuilders.Base.xml",
+        "microsoft.configuration.configurationbuilders.base.3.0.0.nupkg.sha512",
+        "microsoft.configuration.configurationbuilders.base.nuspec"
       ]
     },
     "Microsoft.Data.SqlClient/5.1.6": {
@@ -7921,6 +8109,21 @@
         "postgresql.png"
       ]
     },
+    "OpenAI-DotNet/8.6.4": {
+      "sha512": "UCv4mwyvF7+utHwmkrzUGqkeKEBswW4Qh4v6D1tcjWFbPzrPrnHpNmEBy7bL0lDlpU/A3X4rXmT9OHXLu+uskA==",
+      "type": "package",
+      "path": "openai-dotnet/8.6.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/OpenAI-DotNet-Icon.png",
+        "LICENSE",
+        "README.md",
+        "lib/net8.0/OpenAI-DotNet.dll",
+        "openai-dotnet.8.6.4.nupkg.sha512",
+        "openai-dotnet.nuspec"
+      ]
+    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "sha512": "HdSSp5MnJSsg08KMfZThpuLPJpPwE5hBXvHwoKWosyHHfe8Mh5WKT0ylEOf6yNzX6Ngjxe4Whkafh5q7Ymac4Q==",
       "type": "package",
@@ -8330,10 +8533,10 @@
         "system.buffers.nuspec"
       ]
     },
-    "System.ClientModel/1.0.0": {
-      "sha512": "I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
+    "System.ClientModel/1.2.1": {
+      "sha512": "s9+M5El+DXdCRRLzxak8uGBKWT8H/eIssGpFtpaMKdJULrQbBDPH/zFbVyHX+NDczhS5EvjHFbBH9/L+0UhmcA==",
       "type": "package",
-      "path": "system.clientmodel/1.0.0",
+      "path": "system.clientmodel/1.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8344,7 +8547,7 @@
         "lib/net6.0/System.ClientModel.xml",
         "lib/netstandard2.0/System.ClientModel.dll",
         "lib/netstandard2.0/System.ClientModel.xml",
-        "system.clientmodel.1.0.0.nupkg.sha512",
+        "system.clientmodel.1.2.1.nupkg.sha512",
         "system.clientmodel.nuspec"
       ]
     },
@@ -9717,22 +9920,27 @@
         "version.txt"
       ]
     },
-    "System.Memory.Data/1.0.2": {
-      "sha512": "JGkzeqgBsiZwKJZ1IxPNsDFZDhUvuEdX8L8BDC8N3KOj+6zMcNU28CNN59TpZE/VJYy9cP+5M+sbxtWJx3/xtw==",
+    "System.Memory.Data/6.0.0": {
+      "sha512": "ntFHArH3I4Lpjf5m4DCXQHJuGwWPNVJPaAvM95Jy/u+2Yzt2ryiyIN04LAogkjP9DeRcEOiviAjQotfmPq/FrQ==",
       "type": "package",
-      "path": "system.memory.data/1.0.2",
+      "path": "system.memory.data/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "CHANGELOG.md",
-        "DotNetPackageIcon.png",
-        "README.md",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Memory.Data.targets",
+        "buildTransitive/netcoreapp3.1/_._",
         "lib/net461/System.Memory.Data.dll",
         "lib/net461/System.Memory.Data.xml",
+        "lib/net6.0/System.Memory.Data.dll",
+        "lib/net6.0/System.Memory.Data.xml",
         "lib/netstandard2.0/System.Memory.Data.dll",
         "lib/netstandard2.0/System.Memory.Data.xml",
-        "system.memory.data.1.0.2.nupkg.sha512",
-        "system.memory.data.nuspec"
+        "system.memory.data.6.0.0.nupkg.sha512",
+        "system.memory.data.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Net.Http/4.3.0": {
@@ -12247,6 +12455,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Azure.AI.Vision.ImageAnalysis >= 1.0.0",
       "BCrypt.Net-Next >= 4.0.3",
       "EntityFrameworkCore.CreatedUpdatedDate >= 8.0.0",
       "Humanizer >= 2.14.1",
@@ -12254,6 +12463,7 @@
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.11",
       "Microsoft.AspNetCore.OpenApi >= 8.0.11",
       "Microsoft.AspNetCore.SignalR >= 1.2.0",
+      "Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration >= 3.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Relational >= 8.0.11",
@@ -12261,6 +12471,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.11",
       "Microsoft.Extensions.Hosting >= 8.0.0",
       "Npgsql >= 8.0.6",
+      "OpenAI-DotNet >= 8.6.4",
       "Swashbuckle.AspNetCore >= 7.2.0",
       "Swashbuckle.AspNetCore.Annotations >= 7.0.0",
       "System.IdentityModel.Tokens.Jwt >= 8.2.1",
@@ -12268,23 +12479,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Moises\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Moises\\RiderProjects\\VisionCareCore\\VisionCareCore\\VisionCareCore.csproj",
+      "projectUniqueName": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\VisionCareCore.csproj",
       "projectName": "VisionCareCore",
-      "projectPath": "C:\\Users\\Moises\\RiderProjects\\VisionCareCore\\VisionCareCore\\VisionCareCore.csproj",
-      "packagesPath": "C:\\Users\\Moises\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Moises\\RiderProjects\\VisionCareCore\\VisionCareCore\\obj\\",
+      "projectPath": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\VisionCareCore.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Moises\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -12310,12 +12521,17 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Azure.AI.Vision.ImageAnalysis": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "BCrypt.Net-Next": {
             "target": "Package",
             "version": "[4.0.3, )"
@@ -12343,6 +12559,10 @@
           "Microsoft.AspNetCore.SignalR": {
             "target": "Package",
             "version": "[1.2.0, )"
+          },
+          "Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -12373,6 +12593,10 @@
           "Npgsql": {
             "target": "Package",
             "version": "[8.0.6, )"
+          },
+          "OpenAI-DotNet": {
+            "target": "Package",
+            "version": "[8.6.4, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -12412,8 +12636,30 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration 3.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"Microsoft.Configuration.ConfigurationBuilders.Base 3.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "Microsoft.Configuration.ConfigurationBuilders.Base",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

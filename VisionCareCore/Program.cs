@@ -11,6 +11,9 @@ using VisionCareCore.HealthCare.Application.Internal.QueryServices;
 using VisionCareCore.HealthCare.Domain.Repositories;
 using VisionCareCore.HealthCare.Domain.Services;
 using VisionCareCore.HealthCare.Infrastructure.Persistence.EFC.Repositories;
+using VisionCareCore.OpenAI.Application.Internal.CommandServices;
+using VisionCareCore.OpenAI.Domain.Services;
+using VisionCareCore.OpenAI.Infrastructure.ExternalAPIs.OpenAI;
 using VisionCareCore.Shared.Domain.Repositories;
 using VisionCareCore.Shared.Infraestructure.Interfaces.ASP.Configuration;
 using VisionCareCore.Shared.Infraestructure.Persistences.EFC.Configuration;
@@ -26,6 +29,9 @@ using VisionCareCore.User.Infraestructure.Tokens.JWT.Configurations;
 using VisionCareCore.User.Infraestructure.Tokens.JWT.Services;
 using VisionCareCore.User.Interfaces.ACL;
 using VisionCareCore.User.Interfaces.ACL.Services;
+using VisionCareCore.Vision.Application.Internal.CommandServices;
+using VisionCareCore.Vision.Domain.Services;
+using VisionCareCore.Vision.Infrastructure.ExternalAPIs.Azure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -69,10 +75,17 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
-        .LogTo(Console.WriteLine, LogLevel.Information)
-        .EnableSensitiveDataLogging(builder.Environment.IsDevelopment())
-        .EnableDetailedErrors(builder.Environment.IsDevelopment());
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        sqlOptions => sqlOptions.EnableRetryOnFailure(
+            maxRetryCount: 5,                         
+            maxRetryDelay: TimeSpan.FromSeconds(10),  
+            errorNumbersToAdd: null                   
+        )
+    )
+    .LogTo(Console.WriteLine, LogLevel.Information)
+    .EnableSensitiveDataLogging(builder.Environment.IsDevelopment())
+    .EnableDetailedErrors(builder.Environment.IsDevelopment());
 });
 
 
@@ -182,6 +195,12 @@ builder.Services.AddScoped<IMedicineTimeCommandService, MedicineTimeCommandServi
 
 // Query Service de MedicineTime
 builder.Services.AddScoped<IMedicineTimeQueryService, MedicineTimeQueryService>();
+
+builder.Services.AddScoped<IGptClient, GptClient>();
+builder.Services.AddScoped<IGptService, GptCommandService>();
+
+builder.Services.AddScoped<IVisionService, VisionCommandService>();
+builder.Services.AddScoped<IVisionClient, VisionClient>();
 
 var app = builder.Build();
 
