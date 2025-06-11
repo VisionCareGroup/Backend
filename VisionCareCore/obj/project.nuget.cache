@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pElEtvZIK0M=",
+  "dgSpecHash": "cIutY+0Mxus=",
   "success": true,
-  "projectFilePath": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\VisionCareCore.csproj",
+  "projectFilePath": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\VisionCareCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.ai.vision.imageanalysis\\1.0.0\\azure.ai.vision.imageanalysis.1.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
@@ -266,9 +266,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "El paquete \"Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration 3.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "projectPath": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\VisionCareCore.csproj",
+      "projectPath": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\VisionCareCore.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\VisionCareCore.csproj",
+      "filePath": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\VisionCareCore.csproj",
       "libraryId": "Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration",
       "targetGraphs": [
         "net8.0"
@@ -278,9 +278,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "El paquete \"Microsoft.Configuration.ConfigurationBuilders.Base 3.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
-      "projectPath": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\VisionCareCore.csproj",
+      "projectPath": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\VisionCareCore.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\VisionCareCore.csproj",
+      "filePath": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\VisionCareCore.csproj",
       "libraryId": "Microsoft.Configuration.ConfigurationBuilders.Base",
       "targetGraphs": [
         "net8.0"
