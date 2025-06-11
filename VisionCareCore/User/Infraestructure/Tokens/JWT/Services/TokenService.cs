@@ -47,7 +47,7 @@ namespace VisionCareCore.User.Infraestructure.Tokens.JWT.Services
                 {
                     new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()), // ✅ Reemplaza ClaimTypes.Sid por sub
                     new Claim(ClaimTypes.Name, user.Email),
-                    new Claim(ClaimTypes.Role, user.Role), 
+                    new Claim("visualImpairment", user.VisualImpairment.ToString()),
                     new Claim("refreshToken", refreshToken) 
                 }),
                 Expires = DateTime.UtcNow.AddMinutes(30), 
