@@ -1,3 +1,12 @@
-﻿namespace VisionCareCore.User.Interfaces.REST.Resources;
+﻿using VisionCareCore.User.Domain.Model.Aggregates;
 
-public record SignUpResource(string Email, string Password,string Name,string LastName,string registerArea,DateTime dateCreated,string Role);
+namespace VisionCareCore.User.Interfaces.REST.Resources;
+
+public record SignUpResource(
+    string Email,
+    string Password,
+    string Name,
+    string LastName,
+    DateTime Birthday,
+    string VisualImpairment
+);

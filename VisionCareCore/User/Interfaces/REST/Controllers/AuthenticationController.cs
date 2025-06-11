@@ -31,10 +31,10 @@ public class AuthenticationController(
             return Unauthorized(new { message = "Usuario o contraseña incorrectos" });
         }
 
-        if (!user.IsActive)
-        {
-            return Unauthorized(new { message = "Tu cuenta aún no ha sido activada." });
-        }
+        //  if (!user.IsActive)
+        //  {
+        //      return Unauthorized(new { message = "Tu cuenta aún no ha sido activada." });
+        //  }
 
         var jwtToken = tokenService.GenerateToken(user);
         var refreshToken = tokenService.GenerateRefreshToken();
@@ -70,21 +70,16 @@ public class AuthenticationController(
             return BadRequest(new { message = "El usuario ya existe" });
         }
 
-        var signUpCommand = new SignUpCommand(
-            signUpResource.Email,
-            signUpResource.Password,
-            signUpResource.Name,
-            signUpResource.LastName,
-            signUpResource.registerArea,
-            DateTime.UtcNow,
-            "User"
-        );
+        var signUpCommand = SignUpCommandFromResourceAssembler.ToCommand(signUpResource);
+        if (signUpCommand is null)
+        {
+            return BadRequest(new { message = "Nivel de discapacidad visual inválido" });
+        }
 
         await userCommandService.Handle(signUpCommand);
 
         return Ok(new { message = "Usuario creado exitosamente" });
     }
-
     [HttpPost("refresh-token")]
     [AllowAnonymous]
     public async Task<IActionResult> RefreshToken()

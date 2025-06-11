@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VisionCareCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f03eb3d9f4e1f4959f5a021c5e9837bb30bba634")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68b0e946fc33a4c4f309879a1f4238e4189e6622")]
 [assembly: System.Reflection.AssemblyProductAttribute("VisionCareCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VisionCareCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

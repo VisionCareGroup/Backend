@@ -6,6 +6,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerUI;
+using VisionCareCore.HealthCare.Application.Internal.CommandServices;
+using VisionCareCore.HealthCare.Application.Internal.QueryServices;
+using VisionCareCore.HealthCare.Domain.Repositories;
+using VisionCareCore.HealthCare.Domain.Services;
+using VisionCareCore.HealthCare.Infrastructure.Persistence.EFC.Repositories;
 using VisionCareCore.OpenAI.Application.Internal.CommandServices;
 using VisionCareCore.OpenAI.Domain.Services;
 using VisionCareCore.OpenAI.Infrastructure.ExternalAPIs.OpenAI;
@@ -173,6 +178,23 @@ builder.Services.AddScoped<IAuthUserQueryService, AuthUserQueryService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IHashingService, HashingService>();
 builder.Services.AddScoped<IIamContextFacade, IamContextFacade>();
+// Repositorio de Medicina
+builder.Services.AddScoped<IMedicineRepository, MedicineRepository>();
+
+// Command Service de Medicina
+builder.Services.AddScoped<IMedicineCommandService, MedicineCommandService>();
+
+// Query Service de Medicina
+builder.Services.AddScoped<IMedicineQueryService, MedicineQueryService>();
+
+// Repositorio de MedicineTime
+builder.Services.AddScoped<IMedicineTimeRepository, MedicineTimeRepository>();
+
+// Command Service de MedicineTime
+builder.Services.AddScoped<IMedicineTimeCommandService, MedicineTimeCommandService>();
+
+// Query Service de MedicineTime
+builder.Services.AddScoped<IMedicineTimeQueryService, MedicineTimeQueryService>();
 
 builder.Services.AddScoped<IGptClient, GptClient>();
 builder.Services.AddScoped<IGptService, GptCommandService>();

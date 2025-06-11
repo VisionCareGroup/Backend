@@ -78,8 +78,7 @@ public class AuthUserController(IAuthUserQueryService authUserQueryService, IAut
             id = user.Id,
             email = user.Email,
             name = user.Name,
-            registerArea = user.RegisterArea,
-            role = user.Role
+            visualImpairment = user.VisualImpairment
         });
     }
 

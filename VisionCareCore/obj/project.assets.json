@@ -12485,11 +12485,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\VisionCareCore.csproj",
+      "projectUniqueName": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\VisionCareCore.csproj",
       "projectName": "VisionCareCore",
-      "projectPath": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\VisionCareCore.csproj",
+      "projectPath": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\VisionCareCore.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Programas\\UPC\\VisionCare\\Backend\\Backend\\VisionCareCore\\obj\\",
+      "outputPath": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
