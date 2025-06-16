@@ -6,5 +6,5 @@ public record CreateMedicineCommand(
     string? SideEffects,
     string? Warnings,
     Guid UserId,
-    int? Instruccions
+    string? Instruccions
 );

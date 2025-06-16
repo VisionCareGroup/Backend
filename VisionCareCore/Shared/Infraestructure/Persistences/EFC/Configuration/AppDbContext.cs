@@ -60,11 +60,11 @@ namespace VisionCareCore.Shared.Infraestructure.Persistences.EFC.Configuration
             {
                 medicine.HasKey(m => m.Id);
                 medicine.Property(m => m.Nombre).IsRequired().HasMaxLength(100);
-                medicine.Property(m => m.Description).IsRequired().HasMaxLength(500);
+                medicine.Property(m => m.Description).HasMaxLength(500);
                 medicine.Property(m => m.SideEffects).HasMaxLength(500);
                 medicine.Property(m => m.Warnings).HasMaxLength(500);
                 medicine.Property(m => m.IsDeleted).IsRequired();
-                medicine.Property(m => m.Instruccions);
+                medicine.Property(m => m.Instruccions).HasMaxLength(500);
                 medicine.Property(m => m.UserId).IsRequired();
             });
 
