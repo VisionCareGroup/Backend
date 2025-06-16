@@ -6,10 +6,10 @@ namespace VisionCareCore.HealthCare.Domain.Model.Aggregates
     {
         public Guid Id { get; private set; }
         public string Nombre { get; private set; }
-        public string Description { get; private set; }
-        public string SideEffects { get; private set; }
-        public string Warnings { get; private set; }
-        public int? Instruccions { get; private set; } // ← nuevo campo
+        public string? Description { get; private set; }
+        public string? SideEffects { get; private set; }
+        public string? Warnings { get; private set; }
+        public int? Instruccions { get; private set; } 
         public bool IsDeleted { get; private set; }
 
         public Guid UserId { get; private set; }
