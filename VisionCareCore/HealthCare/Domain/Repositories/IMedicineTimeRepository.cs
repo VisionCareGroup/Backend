@@ -7,4 +7,6 @@ public interface IMedicineTimeRepository : IBaseRepository<MedicineTime>
 {
     Task<IEnumerable<MedicineTime>> GetByMedicineIdAsync(Guid medicineId);
     Task<MedicineTime?> GetByIdAsync(Guid id);
+    Task DeleteAsync(MedicineTime entity);
+
 }

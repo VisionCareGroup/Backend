@@ -4,7 +4,9 @@ namespace VisionCareCore.HealthCare.Domain.Model.Commands;
 
 public record CreateMedicineTimeCommand(
     Guid MedicineId,
-    Foods Foods,
+    string Day,
+    Type_Remember TypeRemember,
+    Foods? Foods,
     TimeOnly? SpecificTime,
     Interval? Interval
 );
