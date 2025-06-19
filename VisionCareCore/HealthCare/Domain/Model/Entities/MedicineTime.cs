@@ -1,3 +1,4 @@
+using System.Text.Json.Serialization;
 using VisionCareCore.HealthCare.Domain.Model.Aggregates;
 using VisionCareCore.HealthCare.Domain.Model.ValueObjects;
 
@@ -8,17 +9,16 @@ public class MedicineTime
     public Guid Id { get; set; }
     public Guid MedicineId { get; set; }
 
-    // Desayuno, almuerzo, cena, irrelevante
-    public Foods Foods { get; set; }
+    public Type_Remember TypeRemember { get; set; }
 
-    // Hora específica (opcional)
+    public Foods? Foods { get; set; }
+
     public TimeOnly? SpecificTime { get; set; }
 
-    // Intervalo de tiempo entre tomas (opcional)
     public Interval? Interval { get; set; }
 
-    public bool IsDeleted { get; set; } = false;
-
-    // Navegación inversa
-    public Medicine Medicine { get; set; }
+    public string Day { get; set; } = default!;
+    
+    [JsonIgnore]
+    public Medicine Medicine { get; set; } = default!;
 }

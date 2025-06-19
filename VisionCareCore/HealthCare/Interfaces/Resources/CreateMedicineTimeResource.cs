@@ -1,9 +1,13 @@
+using VisionCareCore.HealthCare.Domain.Model.ValueObjects;
+
 namespace VisionCareCore.HealthCare.Interfaces.Resources;
 
 public class CreateMedicineTimeResource
 {
     public Guid MedicineId { get; set; }
-    public int Foods { get; set; } // Enum (Breakfast = 0, etc.)
+    public string Day { get; set; } = default!;
+    public Type_Remember TypeRemember { get; set; }
+    public Foods? Foods { get; set; }
     public TimeOnly? SpecificTime { get; set; }
-    public int? Interval { get; set; } // Enum (Every4Hours = 0, etc.)
+    public Interval? Interval { get; set; }
 }

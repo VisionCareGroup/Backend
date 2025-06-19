@@ -10,9 +10,11 @@ public static class CreateMedicineTimeTransform
     {
         return new CreateMedicineTimeCommand(
             resource.MedicineId,
-            (Foods)resource.Foods, 
+            resource.Day,
+            resource.TypeRemember,
+            resource.Foods.HasValue ? (Foods?)resource.Foods : null,
             resource.SpecificTime,
-            (Interval?)resource.Interval 
+            resource.Interval.HasValue ? (Interval?)resource.Interval : null
         );
     }
 }

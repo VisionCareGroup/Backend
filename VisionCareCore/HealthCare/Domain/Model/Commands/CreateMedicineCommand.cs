@@ -2,9 +2,9 @@ namespace VisionCareCore.HealthCare.Domain.Model.Commands;
 
 public record CreateMedicineCommand(
     string Nombre,
-    string Description,
-    string SideEffects,
-    string Warnings,
+    string? Description,
+    string? SideEffects,
+    string? Warnings,
     Guid UserId,
-    int? Instruccions
+    string? Instruccions
 );

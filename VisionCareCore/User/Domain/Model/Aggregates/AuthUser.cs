@@ -7,7 +7,7 @@ public enum VisualImpairmentLevel
     Leve,
     Moderada,
     Grave,
-    Severa
+    Ceguera
 }
 
 public class AuthUser
