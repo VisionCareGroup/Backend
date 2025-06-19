@@ -16,6 +16,7 @@ public class MedicineRepository : BaseRepository<Medicine>, IMedicineRepository
     {
         return await Context.Set<Medicine>()
             .Where(m => m.UserId == userId && !m.IsDeleted)
+            .Include(m => m.MedicineTimes) 
             .ToListAsync();
     }
 }

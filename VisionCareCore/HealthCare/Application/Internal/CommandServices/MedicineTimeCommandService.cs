@@ -4,43 +4,46 @@ using VisionCareCore.HealthCare.Domain.Repositories;
 using VisionCareCore.HealthCare.Domain.Services;
 using VisionCareCore.Shared.Domain.Repositories;
 
-namespace VisionCareCore.HealthCare.Application.Internal.CommandServices;
-
-public class MedicineTimeCommandService : IMedicineTimeCommandService
+namespace VisionCareCore.HealthCare.Application.Internal.CommandServices
 {
-    private readonly IMedicineTimeRepository _repository;
-    private readonly IUnitOfWork _unitOfWork;
-
-    public MedicineTimeCommandService(IMedicineTimeRepository repository, IUnitOfWork unitOfWork)
+    public class MedicineTimeCommandService : IMedicineTimeCommandService
     {
-        _repository = repository;
-        _unitOfWork = unitOfWork;
-    }
+        private readonly IMedicineTimeRepository _repository;
+        private readonly IUnitOfWork _unitOfWork;
 
-    public async Task<Guid> Handle(CreateMedicineTimeCommand command)
-    {
-        var entity = new MedicineTime
+        public MedicineTimeCommandService(IMedicineTimeRepository repository, IUnitOfWork unitOfWork)
         {
-            Id = Guid.NewGuid(),
-            MedicineId = command.MedicineId,
-            Foods = command.Foods,
-            SpecificTime = command.SpecificTime,
-            Interval = command.Interval
-        };
+            _repository = repository;
+            _unitOfWork = unitOfWork;
+        }
 
-        await _repository.AddAsync(entity);
-        await _unitOfWork.CompleteAsync();
+        public async Task<Guid> Handle(CreateMedicineTimeCommand command)
+        {
+            var entity = new MedicineTime
+            {
+                Id = Guid.NewGuid(),
+                MedicineId = command.MedicineId,
+                TypeRemember = command.TypeRemember,
+                Day = command.Day,
+                Foods = command.Foods,
+                SpecificTime = command.SpecificTime,
+                Interval = command.Interval
+            };
 
-        return entity.Id;
-    }
+            await _repository.AddAsync(entity);
+            await _unitOfWork.CompleteAsync();
 
-    public async Task SoftDelete(Guid id)
-    {
-        var item = await _repository.GetByIdAsync(id);
-        if (item == null) throw new Exception("MedicineTime not found");
+            return entity.Id;
+        }
 
-        item.IsDeleted = true;
-        await _repository.UpdateAsync(item);
-        await _unitOfWork.CompleteAsync();
+        public async Task SoftDelete(Guid id)
+        {
+            var item = await _repository.GetByIdAsync(id);
+            if (item == null) throw new Exception("MedicineTime not found");
+
+            // Lógica de borrado real si ya no usas IsDeleted
+            await _repository.DeleteAsync(item); // <- asegúrate que tu repo tenga este método
+            await _unitOfWork.CompleteAsync();
+        }
     }
 }

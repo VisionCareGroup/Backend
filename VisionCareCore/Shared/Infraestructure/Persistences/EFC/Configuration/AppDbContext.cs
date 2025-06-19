@@ -60,11 +60,11 @@ namespace VisionCareCore.Shared.Infraestructure.Persistences.EFC.Configuration
             {
                 medicine.HasKey(m => m.Id);
                 medicine.Property(m => m.Nombre).IsRequired().HasMaxLength(100);
-                medicine.Property(m => m.Description).IsRequired().HasMaxLength(500);
+                medicine.Property(m => m.Description).HasMaxLength(500);
                 medicine.Property(m => m.SideEffects).HasMaxLength(500);
                 medicine.Property(m => m.Warnings).HasMaxLength(500);
                 medicine.Property(m => m.IsDeleted).IsRequired();
-                medicine.Property(m => m.Instruccions);
+                medicine.Property(m => m.Instruccions).HasMaxLength(500);
                 medicine.Property(m => m.UserId).IsRequired();
             });
 
@@ -74,7 +74,7 @@ namespace VisionCareCore.Shared.Infraestructure.Persistences.EFC.Configuration
 
                 mt.Property(x => x.Foods)
                     .HasConversion<int>()
-                    .IsRequired();
+                    .IsRequired(false);
 
                 mt.Property(x => x.Interval)
                     .HasConversion<int>()
@@ -84,7 +84,12 @@ namespace VisionCareCore.Shared.Infraestructure.Persistences.EFC.Configuration
                     .HasColumnType("time")
                     .IsRequired(false);
 
-                mt.Property(x => x.IsDeleted)
+                mt.Property(x => x.Day)
+                    .IsRequired()
+                    .HasMaxLength(20);
+
+                mt.Property(x => x.TypeRemember)
+                    .HasConversion<string>() 
                     .IsRequired();
 
                 mt.HasOne(x => x.Medicine)
@@ -92,7 +97,7 @@ namespace VisionCareCore.Shared.Infraestructure.Persistences.EFC.Configuration
                     .HasForeignKey(x => x.MedicineId)
                     .OnDelete(DeleteBehavior.Cascade);
             });
-            
+
         }
             
             
