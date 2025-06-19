@@ -415,3 +415,9 @@ D:\Programas\UPC\VisionCare\Backend\Backend\VisionCareCore\bin\Debug\net8.0\Azur
 D:\Programas\UPC\VisionCare\Backend\Backend\VisionCareCore\bin\Debug\net8.0\Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration.dll
 D:\Programas\UPC\VisionCare\Backend\Backend\VisionCareCore\bin\Debug\net8.0\Microsoft.Configuration.ConfigurationBuilders.Base.dll
 D:\Programas\UPC\VisionCare\Backend\Backend\VisionCareCore\bin\Debug\net8.0\Azure.AI.Vision.ImageAnalysis.dll
+C:\Users\Moises\RiderProjects\VisionCareCore\VisionCareCore\bin\Debug\net8.0\Azure.AI.Vision.ImageAnalysis.dll
+C:\Users\Moises\RiderProjects\VisionCareCore\VisionCareCore\bin\Debug\net8.0\Azure.Data.AppConfiguration.dll
+C:\Users\Moises\RiderProjects\VisionCareCore\VisionCareCore\bin\Debug\net8.0\Azure.Security.KeyVault.Secrets.dll
+C:\Users\Moises\RiderProjects\VisionCareCore\VisionCareCore\bin\Debug\net8.0\Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration.dll
+C:\Users\Moises\RiderProjects\VisionCareCore\VisionCareCore\bin\Debug\net8.0\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\Moises\RiderProjects\VisionCareCore\VisionCareCore\bin\Debug\net8.0\OpenAI-DotNet.dll

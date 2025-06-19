@@ -64,7 +64,7 @@ public class AuthUserController(IAuthUserQueryService authUserQueryService, IAut
         Console.WriteLine("✅ Usuario autenticado correctamente.");
 
         var userIdClaim = HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? 
-                          HttpContext.User.FindFirst("sub")?.Value;  // Alternativa en caso de que no esté en NameIdentifier
+                          HttpContext.User.FindFirst("sub")?.Value;  
         if (string.IsNullOrEmpty(userIdClaim))
         {
             return Unauthorized(new { message = "No se encontró el ID del usuario" });
@@ -78,7 +78,7 @@ public class AuthUserController(IAuthUserQueryService authUserQueryService, IAut
             id = user.Id,
             email = user.Email,
             name = user.Name,
-            visualImpairment = user.VisualImpairment
+            visualImpairment = user.VisualImpairment.ToString()
         });
     }
 
