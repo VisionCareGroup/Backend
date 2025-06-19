@@ -11,6 +11,7 @@ public static class AuthUserResourceFromEntityAssembler
             user.Email,
             user.Name,
             user.LastName,
+            user.Birthday,
             user.VisualImpairment.ToString() );
     }
 }
