@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VisionCareCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+307620dfc092c79614a2b7698e46f6ab0d3aa030")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9962b25f820580a04c88ee33f623dafb3c6b205")]
 [assembly: System.Reflection.AssemblyProductAttribute("VisionCareCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VisionCareCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

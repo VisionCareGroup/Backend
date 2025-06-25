@@ -227,8 +227,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SupportedSubmitMethods(new[] { SubmitMethod.Get, SubmitMethod.Post });
-        c.ConfigObject.AdditionalItems["withCredentials"] = true; // 🔹 Habilita envío de cookies
+        c.SupportedSubmitMethods(new[] { SubmitMethod.Get, SubmitMethod.Post, SubmitMethod.Delete });
+        c.ConfigObject.AdditionalItems["withCredentials"] = true;
     });}
 
 app.UseHttpsRedirection();
