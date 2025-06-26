@@ -66,6 +66,7 @@ namespace VisionCareCore.Shared.Infraestructure.Persistences.EFC.Configuration
                 medicine.Property(m => m.IsDeleted).IsRequired();
                 medicine.Property(m => m.Instruccions).HasMaxLength(500);
                 medicine.Property(m => m.UserId).IsRequired();
+                medicine.Property(m => m.ExpirationDate);
             });
 
             builder.Entity<MedicineTime>(mt =>

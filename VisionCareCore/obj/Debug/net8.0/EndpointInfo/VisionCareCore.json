@@ -191,6 +191,158 @@
         }
       }
     },
+    "/api/medicine": {
+      "post": {
+        "tags": [
+          "Medicine"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineResource"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineResource"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineResource"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/medicine/user/{userId}": {
+      "get": {
+        "tags": [
+          "Medicine"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/medicine-time": {
+      "post": {
+        "tags": [
+          "MedicineTime"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineTimeResource"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineTimeResource"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMedicineTimeResource"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/medicine-time/by-medicine/{medicineId}": {
+      "get": {
+        "tags": [
+          "MedicineTime"
+        ],
+        "parameters": [
+          {
+            "name": "medicineId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/medicine-time/{id}": {
+      "get": {
+        "tags": [
+          "MedicineTime"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "MedicineTime"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/vc/v1/vision/recognize-image": {
       "post": {
         "tags": [
@@ -226,6 +378,78 @@
   },
   "components": {
     "schemas": {
+      "CreateMedicineResource": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "sideEffects": {
+            "type": "string",
+            "nullable": true
+          },
+          "warnings": {
+            "type": "string",
+            "nullable": true
+          },
+          "userId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "instruccions": {
+            "type": "string",
+            "nullable": true
+          },
+          "expirationDate": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateMedicineTimeResource": {
+        "type": "object",
+        "properties": {
+          "medicineId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "day": {
+            "type": "string",
+            "nullable": true
+          },
+          "typeRemember": {
+            "$ref": "#/components/schemas/Type_Remember"
+          },
+          "foods": {
+            "$ref": "#/components/schemas/Foods"
+          },
+          "specificTime": {
+            "type": "string",
+            "format": "time",
+            "nullable": true
+          },
+          "interval": {
+            "$ref": "#/components/schemas/Interval"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Foods": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
       "GptRequest": {
         "type": "object",
         "properties": {
@@ -239,6 +463,17 @@
           }
         },
         "additionalProperties": false
+      },
+      "Interval": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "type": "integer",
+        "format": "int32"
       },
       "SignInResource": {
         "type": "object",
@@ -273,20 +508,25 @@
             "type": "string",
             "nullable": true
           },
-          "registerArea": {
-            "type": "string",
-            "nullable": true
-          },
-          "dateCreated": {
+          "birthday": {
             "type": "string",
             "format": "date-time"
           },
-          "role": {
+          "visualImpairment": {
             "type": "string",
             "nullable": true
           }
         },
         "additionalProperties": false
+      },
+      "Type_Remember": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
       }
     },
     "securitySchemes": {

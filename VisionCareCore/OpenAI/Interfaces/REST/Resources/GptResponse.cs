@@ -5,5 +5,6 @@
         public string Medicamento { get; init; }
         public string Tipo { get; init; }
         public object Contenido { get; init; }
+        public string? ExpirationDate { get; init; }
     }
 }

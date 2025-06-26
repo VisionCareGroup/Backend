@@ -88,6 +88,102 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "VisionCareCore.HealthCare.Interfaces.Controllers.MedicineController",
+    "Method": "Create",
+    "RelativePath": "api/medicine",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resource",
+        "Type": "VisionCareCore.HealthCare.Interfaces.Resources.CreateMedicineResource",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.HealthCare.Interfaces.Controllers.MedicineTimeController",
+    "Method": "Create",
+    "RelativePath": "api/medicine-time",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resource",
+        "Type": "VisionCareCore.HealthCare.Interfaces.Resources.CreateMedicineTimeResource",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.HealthCare.Interfaces.Controllers.MedicineTimeController",
+    "Method": "GetById",
+    "RelativePath": "api/medicine-time/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.HealthCare.Interfaces.Controllers.MedicineTimeController",
+    "Method": "Delete",
+    "RelativePath": "api/medicine-time/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.HealthCare.Interfaces.Controllers.MedicineTimeController",
+    "Method": "GetByMedicineId",
+    "RelativePath": "api/medicine-time/by-medicine/{medicineId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicineId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.HealthCare.Interfaces.Controllers.MedicineController",
+    "Method": "GetByUserId",
+    "RelativePath": "api/medicine/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VisionCareCore.OpenAI.Interfaces.REST.Controllers.GptController",
     "Method": "TestGpt",
     "RelativePath": "vc/v1/gpt/test",

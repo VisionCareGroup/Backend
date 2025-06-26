@@ -11,6 +11,7 @@ namespace VisionCareCore.HealthCare.Domain.Model.Aggregates
         public string? Warnings { get; private set; }
         public string? Instruccions { get; private set; } 
         public bool IsDeleted { get; private set; }
+        public string? ExpirationDate { get; set; } 
 
         public Guid UserId { get; private set; }
 
@@ -24,7 +25,8 @@ namespace VisionCareCore.HealthCare.Domain.Model.Aggregates
             string sideEffects,
             string warnings,
             Guid userId,
-            string? instruccions )
+            string? instruccions,
+            string? expirationDate)
         {
             Id = Guid.NewGuid();
             Nombre = nombre;
@@ -34,6 +36,7 @@ namespace VisionCareCore.HealthCare.Domain.Model.Aggregates
             Instruccions = instruccions;
             IsDeleted = false;
             UserId = userId;
+            ExpirationDate = expirationDate;
         }
 
         public void MarkAsDeleted()

@@ -7,5 +7,6 @@ public class CreateMedicineResource
     public string? SideEffects { get; set; }    
     public string? Warnings { get; set; }       
     public Guid UserId { get; set; }
-    public string? Instruccions { get; set; }      
+    public string? Instruccions { get; set; }
+    public string? ExpirationDate { get; set; }
 }

@@ -58,7 +58,8 @@ namespace VisionCareCore.OpenAI.Infrastructure.ExternalAPIs.OpenAI
             {
                 Medicamento = gptResponse.Medicamento,
                 Tipo = gptResponse.Tipo,
-                Contenido = gptResponse.Contenido
+                Contenido = gptResponse.Contenido,
+                ExpirationDate = gptResponse.ExpirationDate,
             };
         }
     }

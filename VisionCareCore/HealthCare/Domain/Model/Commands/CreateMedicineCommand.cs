@@ -6,5 +6,6 @@ public record CreateMedicineCommand(
     string? SideEffects,
     string? Warnings,
     Guid UserId,
-    string? Instruccions
+    string? Instruccions,
+    string? ExpirationDate
 );
