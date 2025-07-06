@@ -49,9 +49,25 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 238,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 353,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -60,7 +76,7 @@
               "RelativeDocumentMoniker": "VisionCareCore\\appsettings.json",
               "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\appsettings.json",
               "RelativeToolTip": "VisionCareCore\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-07T05:01:04.195Z",
               "EditorCaption": ""
@@ -128,7 +144,7 @@
           ]
         },
         {
-          "DockedWidth": 142,
+          "DockedWidth": 27,
           "SelectedChildIndex": 0,
           "Children": [
             {
