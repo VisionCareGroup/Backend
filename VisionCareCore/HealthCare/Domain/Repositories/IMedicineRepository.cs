@@ -6,4 +6,8 @@ namespace VisionCareCore.HealthCare.Domain.Repositories;
 public interface IMedicineRepository : IBaseRepository<Medicine>
 {
     Task<IEnumerable<Medicine>> GetAllByUserIdAsync(Guid userId);
+    Task<Medicine?> GetByIdAsync(Guid id);
+    void Delete(Medicine medicine);
+
+
 }

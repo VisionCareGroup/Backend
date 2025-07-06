@@ -19,4 +19,13 @@ public class MedicineRepository : BaseRepository<Medicine>, IMedicineRepository
             .Include(m => m.MedicineTimes) 
             .ToListAsync();
     }
+    public async Task<Medicine?> GetByIdAsync(Guid id)
+    {
+        return await Context.Set<Medicine>()
+            .FirstOrDefaultAsync(m => m.Id == id && !m.IsDeleted);
+    }
+    public void Delete(Medicine medicine)
+    {
+        Context.Set<Medicine>().Remove(medicine);
+    }
 }

@@ -36,4 +36,15 @@ public class MedicineCommandService : IMedicineCommandService
 
         return medicine.Id;
     }
+    public async Task Handle(DeleteMedicineCommand command)
+    {
+        var medicine = await _medicineRepository.GetByIdAsync(command.MedicineId);
+
+        if (medicine == null)
+            return;
+
+        _medicineRepository.Delete(medicine);
+        await _unitOfWork.CompleteAsync();
+    }
+
 }
