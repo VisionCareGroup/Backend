@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using VisionCareCore.HealthCare.Application.Internal.CommandServices;
 using VisionCareCore.HealthCare.Application.Internal.QueryServices;
+using VisionCareCore.HealthCare.Domain.Model.Commands;
 using VisionCareCore.HealthCare.Domain.Queries;
 using VisionCareCore.HealthCare.Domain.Services;
 using VisionCareCore.HealthCare.Interfaces.Resources;
@@ -39,6 +40,14 @@ namespace VisionCareCore.HealthCare.Interfaces.Controllers
             var query = new GetAllMedicinesByUserIdQuery(userId);
             var medicines = await _medicineQueryService.Handle(query);
             return Ok(medicines);
+        }
+        
+        [HttpDelete("{id:guid}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            var command = new DeleteMedicineCommand(id);
+            await _medicineCommandService.Handle(command);
+            return NoContent();
         }
     }
 }
