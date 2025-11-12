@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Azure;
+using Microsoft.AspNetCore.Mvc;
 using System.Net.Mime;
 using VisionCareCore.Vision.Domain.Services;
 
@@ -26,12 +27,30 @@ namespace VisionCareCore.Vision.Interfaces.REST.Controllers
             }
             try
             {
-                var result = await _visionService.RecognizeImageAsync(imageRequest);
-                return Ok(new { message = "Image recognized successfully.", data = result });
+                var result = await _visionService.AnalyzeImageAsync(imageRequest);
+                return Ok(result);
             }
             catch (Exception ex)
             {
                 return StatusCode(500, new { message = "Failed to recognize image.", error = ex.Message });
+            }
+        }
+
+        [HttpPost("scan")]
+        public async Task<IActionResult> ScanImage(IFormFile imageRequest)
+        {
+            if (imageRequest == null || imageRequest.Length == 0)
+            {
+                return BadRequest(new { message = "Invalid image file." });
+            }
+            try
+            {
+                var result = await _visionService.RecognizeImageAsync(imageRequest);
+                return Ok(new { message = "Image scan successfully.", data = result });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Failed to scan image.", error = ex.Message });
             }
         }
     }

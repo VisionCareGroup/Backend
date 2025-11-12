@@ -245,6 +245,29 @@
         }
       }
     },
+    "/api/medicine/{id}": {
+      "delete": {
+        "tags": [
+          "Medicine"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/medicine-time": {
       "post": {
         "tags": [
@@ -344,6 +367,38 @@
       }
     },
     "/vc/v1/vision/recognize-image": {
+      "post": {
+        "tags": [
+          "Vision"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "imageRequest": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "imageRequest": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/vc/v1/vision/scan": {
       "post": {
         "tags": [
           "Vision"
