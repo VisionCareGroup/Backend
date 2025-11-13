@@ -20,6 +20,31 @@ public class MedicineTimeController : ControllerBase
         _queryService = queryService;
     }
 
+    /// <summary>
+    /// Reemplaza todos los MedicineTime de una medicina por los nuevos enviados.
+    /// </summary>
+    [HttpPost("update-all")]
+    public async Task<IActionResult> UpdateAll([FromBody] UpdateMedicineTimesRequest request)
+    {
+        // Eliminar todos los MedicineTime existentes para la medicina
+        var existing = await _queryService.GetAllByMedicineIdAsync(request.MedicineId);
+        foreach (var mt in existing)
+        {
+            await _commandService.SoftDelete(mt.Id);
+        }
+
+        // Crear los nuevos MedicineTime
+        foreach (var resource in request.MedicineTimes)
+        {
+            // Forzar el MedicineId correcto
+            resource.MedicineId = request.MedicineId;
+            var command = CreateMedicineTimeTransform.ToCommand(resource);
+            await _commandService.Handle(command);
+        }
+
+        return NoContent();
+    }
+
    
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] CreateMedicineTimeResource resource)
