@@ -41,8 +41,9 @@ public class MedicineTimeController : ControllerBase
             var command = CreateMedicineTimeTransform.ToCommand(resource);
             await _commandService.Handle(command);
         }
-
-        return NoContent();
+        var result = await _queryService.GetAllByMedicineIdAsync(request.MedicineId);
+        //devolver el nuevo
+        return Ok(result);
     }
 
    
