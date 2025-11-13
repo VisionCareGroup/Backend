@@ -7,44 +7,64 @@
       "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\shared\\infraestructure\\persistences\\efc\\configuration\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\shared\\infraestructure\\persistences\\efc\\configuration\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\shared\\domain\\repositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\shared\\domain\\repositories\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\vision\\application\\internal\\commandservices\\visioncommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\vision\\application\\internal\\commandservices\\visioncommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\vision\\domain\\services\\ivisionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\vision\\domain\\services\\ivisionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\vision\\interfaces\\rest\\controllers\\visioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\vision\\interfaces\\rest\\controllers\\visioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\openai\\interfaces\\rest\\controllers\\gptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\openai\\interfaces\\rest\\controllers\\gptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\healthcare\\application\\internal\\commandservices\\medicinetimecommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\healthcare\\application\\internal\\commandservices\\medicinetimecommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\openai\\interfaces\\rest\\resources\\gptresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\openai\\interfaces\\rest\\resources\\gptresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\healthcare\\application\\internal\\commandservices\\medicinecommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\healthcare\\application\\internal\\commandservices\\medicinecommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\openai\\application\\internal\\commandservices\\gptcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\openai\\application\\internal\\commandservices\\gptcommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\healthcare\\domain\\queries\\getallmedicinesbyuseridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\healthcare\\domain\\queries\\getallmedicinesbyuseridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\vision\\infrastructure\\externalapis\\azure\\visionclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\vision\\infrastructure\\externalapis\\azure\\visionclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\healthcare\\interfaces\\resources\\createmedicinetimeresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\healthcare\\interfaces\\resources\\createmedicinetimeresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\openai\\infrastructure\\externalapis\\openai\\gptclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\openai\\infrastructure\\externalapis\\openai\\gptclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\healthcare\\interfaces\\transform\\createmedicinetimetransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\healthcare\\interfaces\\transform\\createmedicinetimetransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\healthcare\\interfaces\\transform\\createmedicinetransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\healthcare\\interfaces\\transform\\createmedicinetransform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\healthcare\\domain\\model\\aggregates\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\healthcare\\domain\\model\\aggregates\\medicine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\healthcare\\interfaces\\resources\\createmedicineresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\healthcare\\interfaces\\resources\\createmedicineresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\healthcare\\domain\\model\\aggregates\\medicinerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\healthcare\\domain\\model\\aggregates\\medicinerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\healthcare\\application\\internal\\queryservices\\medicinequeryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\healthcare\\application\\internal\\queryservices\\medicinequeryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\healthcare\\domain\\repositories\\imedicinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\healthcare\\domain\\repositories\\imedicinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\healthcare\\domain\\repositories\\imedicinetimerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\healthcare\\domain\\repositories\\imedicinetimerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\healthcare\\domain\\model\\commands\\createmedicinetimecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\healthcare\\domain\\model\\commands\\createmedicinetimecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|d:\\programas\\upc\\visioncare\\backend\\visioncarecore\\healthcare\\domain\\model\\commands\\createmedicinecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5710E358-B626-47C2-B1A0-27AA97EC290D}|VisionCareCore\\VisionCareCore.csproj|solutionrelative:visioncarecore\\healthcare\\domain\\model\\commands\\createmedicinecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,60 +74,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 184,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GptClient.cs",
-              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
-              "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
-              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
-              "RelativeToolTip": "VisionCareCore\\OpenAI\\Infrastructure\\ExternalAPIs\\OpenAI\\GptClient.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:56:05.779Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "VisionClient.cs",
-              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\Vision\\Infrastructure\\ExternalAPIs\\Azure\\VisionClient.cs",
-              "RelativeDocumentMoniker": "VisionCareCore\\Vision\\Infrastructure\\ExternalAPIs\\Azure\\VisionClient.cs",
-              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\Vision\\Infrastructure\\ExternalAPIs\\Azure\\VisionClient.cs",
-              "RelativeToolTip": "VisionCareCore\\Vision\\Infrastructure\\ExternalAPIs\\Azure\\VisionClient.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:55:14.392Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GptCommandService.cs",
-              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\OpenAI\\Application\\Internal\\CommandServices\\GptCommandService.cs",
-              "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Application\\Internal\\CommandServices\\GptCommandService.cs",
-              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\OpenAI\\Application\\Internal\\CommandServices\\GptCommandService.cs",
-              "RelativeToolTip": "VisionCareCore\\OpenAI\\Application\\Internal\\CommandServices\\GptCommandService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:56:53.842Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GptController.cs",
-              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Controllers\\GptController.cs",
-              "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Controllers\\GptController.cs",
-              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Controllers\\GptController.cs",
-              "RelativeToolTip": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Controllers\\GptController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:58:35.889Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -132,82 +100,205 @@
               "RelativeDocumentMoniker": "VisionCareCore\\appsettings.json",
               "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\appsettings.json",
               "RelativeToolTip": "VisionCareCore\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAACjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-12T18:13:05.001Z",
+              "WhenOpened": "2025-11-12T19:02:10.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\Shared\\Infraestructure\\Persistences\\EFC\\Configuration\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "VisionCareCore\\Shared\\Infraestructure\\Persistences\\EFC\\Configuration\\AppDbContext.cs",
-              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\Shared\\Infraestructure\\Persistences\\EFC\\Configuration\\AppDbContext.cs",
-              "RelativeToolTip": "VisionCareCore\\Shared\\Infraestructure\\Persistences\\EFC\\Configuration\\AppDbContext.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwB0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T18:10:36.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IBaseRepository.cs",
-              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\Shared\\Domain\\Repositories\\IBaseRepository.cs",
-              "RelativeDocumentMoniker": "VisionCareCore\\Shared\\Domain\\Repositories\\IBaseRepository.cs",
-              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\Shared\\Domain\\Repositories\\IBaseRepository.cs",
-              "RelativeToolTip": "VisionCareCore\\Shared\\Domain\\Repositories\\IBaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T18:10:28.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IVisionService.cs",
-              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\Vision\\Domain\\Services\\IVisionService.cs",
-              "RelativeDocumentMoniker": "VisionCareCore\\Vision\\Domain\\Services\\IVisionService.cs",
-              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\Vision\\Domain\\Services\\IVisionService.cs",
-              "RelativeToolTip": "VisionCareCore\\Vision\\Domain\\Services\\IVisionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T18:09:00.696Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GptResponse.cs",
-              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResponse.cs",
-              "RelativeDocumentMoniker": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResponse.cs",
-              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResponse.cs",
-              "RelativeToolTip": "VisionCareCore\\OpenAI\\Interfaces\\REST\\Resources\\GptResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:59:08.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "VisionController.cs",
               "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\Vision\\Interfaces\\REST\\Controllers\\VisionController.cs",
               "RelativeDocumentMoniker": "VisionCareCore\\Vision\\Interfaces\\REST\\Controllers\\VisionController.cs",
               "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\Vision\\Interfaces\\REST\\Controllers\\VisionController.cs",
               "RelativeToolTip": "VisionCareCore\\Vision\\Interfaces\\REST\\Controllers\\VisionController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwDAAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:50:48.935Z"
+              "WhenOpened": "2025-11-12T18:45:54.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateMedicineTimeTransform.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Interfaces\\Transform\\CreateMedicineTimeTransform.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\HealthCare\\Interfaces\\Transform\\CreateMedicineTimeTransform.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Interfaces\\Transform\\CreateMedicineTimeTransform.cs",
+              "RelativeToolTip": "VisionCareCore\\HealthCare\\Interfaces\\Transform\\CreateMedicineTimeTransform.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:37:39.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateMedicineTransform.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Interfaces\\Transform\\CreateMedicineTransform.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\HealthCare\\Interfaces\\Transform\\CreateMedicineTransform.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Interfaces\\Transform\\CreateMedicineTransform.cs",
+              "RelativeToolTip": "VisionCareCore\\HealthCare\\Interfaces\\Transform\\CreateMedicineTransform.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:37:38.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateMedicineResource.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Interfaces\\Resources\\CreateMedicineResource.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\HealthCare\\Interfaces\\Resources\\CreateMedicineResource.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Interfaces\\Resources\\CreateMedicineResource.cs",
+              "RelativeToolTip": "VisionCareCore\\HealthCare\\Interfaces\\Resources\\CreateMedicineResource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:37:31.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateMedicineTimeResource.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Interfaces\\Resources\\CreateMedicineTimeResource.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\HealthCare\\Interfaces\\Resources\\CreateMedicineTimeResource.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Interfaces\\Resources\\CreateMedicineTimeResource.cs",
+              "RelativeToolTip": "VisionCareCore\\HealthCare\\Interfaces\\Resources\\CreateMedicineTimeResource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:36:35.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MedicineQueryService.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Application\\Internal\\QueryServices\\MedicineQueryService.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\HealthCare\\Application\\Internal\\QueryServices\\MedicineQueryService.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Application\\Internal\\QueryServices\\MedicineQueryService.cs",
+              "RelativeToolTip": "VisionCareCore\\HealthCare\\Application\\Internal\\QueryServices\\MedicineQueryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:36:29.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MedicineTimeCommandService.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Application\\Internal\\CommandServices\\MedicineTimeCommandService.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\HealthCare\\Application\\Internal\\CommandServices\\MedicineTimeCommandService.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Application\\Internal\\CommandServices\\MedicineTimeCommandService.cs",
+              "RelativeToolTip": "VisionCareCore\\HealthCare\\Application\\Internal\\CommandServices\\MedicineTimeCommandService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:29:37.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "VisionCommandService.cs",
-              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\Vision\\Application\\Internal\\CommandServices\\VisionCommandService.cs",
-              "RelativeDocumentMoniker": "VisionCareCore\\Vision\\Application\\Internal\\CommandServices\\VisionCommandService.cs",
-              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\Vision\\Application\\Internal\\CommandServices\\VisionCommandService.cs",
-              "RelativeToolTip": "VisionCareCore\\Vision\\Application\\Internal\\CommandServices\\VisionCommandService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAkAAAAAAAAAA==",
+              "Title": "MedicineCommandService.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Application\\Internal\\CommandServices\\MedicineCommandService.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\HealthCare\\Application\\Internal\\CommandServices\\MedicineCommandService.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Application\\Internal\\CommandServices\\MedicineCommandService.cs",
+              "RelativeToolTip": "VisionCareCore\\HealthCare\\Application\\Internal\\CommandServices\\MedicineCommandService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T17:50:33.835Z"
+              "WhenOpened": "2025-11-12T18:29:33.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllMedicinesByUserIdQuery.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Domain\\Queries\\GetAllMedicinesByUserIdQuery.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\HealthCare\\Domain\\Queries\\GetAllMedicinesByUserIdQuery.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Domain\\Queries\\GetAllMedicinesByUserIdQuery.cs",
+              "RelativeToolTip": "VisionCareCore\\HealthCare\\Domain\\Queries\\GetAllMedicinesByUserIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:28:57.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMedicineRepository.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Domain\\Repositories\\IMedicineRepository.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\HealthCare\\Domain\\Repositories\\IMedicineRepository.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Domain\\Repositories\\IMedicineRepository.cs",
+              "RelativeToolTip": "VisionCareCore\\HealthCare\\Domain\\Repositories\\IMedicineRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:28:51.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IMedicineTimeRepository.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Domain\\Repositories\\IMedicineTimeRepository.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\HealthCare\\Domain\\Repositories\\IMedicineTimeRepository.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Domain\\Repositories\\IMedicineTimeRepository.cs",
+              "RelativeToolTip": "VisionCareCore\\HealthCare\\Domain\\Repositories\\IMedicineTimeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:28:53.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Medicine.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Domain\\Model\\Aggregates\\Medicine.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\HealthCare\\Domain\\Model\\Aggregates\\Medicine.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Domain\\Model\\Aggregates\\Medicine.cs",
+              "RelativeToolTip": "VisionCareCore\\HealthCare\\Domain\\Model\\Aggregates\\Medicine.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:26:25.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateMedicineTimeCommand.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Domain\\Model\\Commands\\CreateMedicineTimeCommand.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\HealthCare\\Domain\\Model\\Commands\\CreateMedicineTimeCommand.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Domain\\Model\\Commands\\CreateMedicineTimeCommand.cs",
+              "RelativeToolTip": "VisionCareCore\\HealthCare\\Domain\\Model\\Commands\\CreateMedicineTimeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:28:45.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateMedicineCommand.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Domain\\Model\\Commands\\CreateMedicineCommand.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\HealthCare\\Domain\\Model\\Commands\\CreateMedicineCommand.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Domain\\Model\\Commands\\CreateMedicineCommand.cs",
+              "RelativeToolTip": "VisionCareCore\\HealthCare\\Domain\\Model\\Commands\\CreateMedicineCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:28:42.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MedicineRequest.cs",
+              "DocumentMoniker": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Domain\\Model\\Aggregates\\MedicineRequest.cs",
+              "RelativeDocumentMoniker": "VisionCareCore\\HealthCare\\Domain\\Model\\Aggregates\\MedicineRequest.cs",
+              "ToolTip": "D:\\Programas\\UPC\\VisionCare\\Backend\\VisionCareCore\\HealthCare\\Domain\\Model\\Aggregates\\MedicineRequest.cs",
+              "RelativeToolTip": "VisionCareCore\\HealthCare\\Domain\\Model\\Aggregates\\MedicineRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T18:26:23.718Z",
+              "EditorCaption": ""
             }
           ]
         }
