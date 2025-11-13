@@ -1,0 +1,276 @@
+[
+  {
+    "ContainingType": "VisionCareCore.User.Interfaces.REST.Controllers.AuthUserController",
+    "Method": "GetAuthAllUsers",
+    "RelativePath": "amsac/v1/auth-user",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.User.Interfaces.REST.Controllers.AuthUserController",
+    "Method": "GetAuthUserById",
+    "RelativePath": "amsac/v1/auth-user/{authUserId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "authUserId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.User.Interfaces.REST.Controllers.AuthUserController",
+    "Method": "GetAuthenticatedUser",
+    "RelativePath": "amsac/v1/auth-user/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.User.Interfaces.REST.Controllers.AuthenticationController",
+    "Method": "RefreshToken",
+    "RelativePath": "amsac/v1/authentication/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.User.Interfaces.REST.Controllers.AuthenticationController",
+    "Method": "SignIn",
+    "RelativePath": "amsac/v1/authentication/sign-in",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "signInResource",
+        "Type": "VisionCareCore.User.Interfaces.REST.Resources.SignInResource",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.User.Interfaces.REST.Controllers.AuthenticationController",
+    "Method": "Logout",
+    "RelativePath": "amsac/v1/authentication/sign-out",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.User.Interfaces.REST.Controllers.AuthenticationController",
+    "Method": "SignUp",
+    "RelativePath": "amsac/v1/authentication/sign-up",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "signUpResource",
+        "Type": "VisionCareCore.User.Interfaces.REST.Resources.SignUpResource",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.HealthCare.Interfaces.Controllers.MedicineController",
+    "Method": "Create",
+    "RelativePath": "api/medicine",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resource",
+        "Type": "VisionCareCore.HealthCare.Interfaces.Resources.CreateMedicineResource",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.HealthCare.Interfaces.Controllers.MedicineTimeController",
+    "Method": "Create",
+    "RelativePath": "api/medicine-time",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resource",
+        "Type": "VisionCareCore.HealthCare.Interfaces.Resources.CreateMedicineTimeResource",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.HealthCare.Interfaces.Controllers.MedicineTimeController",
+    "Method": "GetById",
+    "RelativePath": "api/medicine-time/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.HealthCare.Interfaces.Controllers.MedicineTimeController",
+    "Method": "Delete",
+    "RelativePath": "api/medicine-time/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.HealthCare.Interfaces.Controllers.MedicineTimeController",
+    "Method": "GetByMedicineId",
+    "RelativePath": "api/medicine-time/by-medicine/{medicineId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicineId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.HealthCare.Interfaces.Controllers.MedicineTimeController",
+    "Method": "UpdateAll",
+    "RelativePath": "api/medicine-time/update-all",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "VisionCareCore.HealthCare.Interfaces.Resources.UpdateMedicineTimesRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.HealthCare.Interfaces.Controllers.MedicineController",
+    "Method": "Delete",
+    "RelativePath": "api/medicine/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.HealthCare.Interfaces.Controllers.MedicineController",
+    "Method": "GetByUserId",
+    "RelativePath": "api/medicine/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.OpenAI.Interfaces.REST.Controllers.GptController",
+    "Method": "TestGpt",
+    "RelativePath": "vc/v1/gpt/test",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "VisionCareCore.OpenAI.Interfaces.REST.Resources.GptRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.OpenAI.Interfaces.REST.Controllers.GptController",
+    "Method": "TestConnection",
+    "RelativePath": "vc/v1/gpt/test-connection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.Vision.Interfaces.REST.Controllers.VisionController",
+    "Method": "RecognizeImage",
+    "RelativePath": "vc/v1/vision/recognize-image",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageRequest",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VisionCareCore.Vision.Interfaces.REST.Controllers.VisionController",
+    "Method": "ScanImage",
+    "RelativePath": "vc/v1/vision/scan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imageRequest",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
