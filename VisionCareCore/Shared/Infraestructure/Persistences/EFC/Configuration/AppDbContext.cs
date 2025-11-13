@@ -100,7 +100,7 @@ namespace VisionCareCore.Shared.Infraestructure.Persistences.EFC.Configuration
             });
 
         }
-            
-            
-}
+
+
+    }
 }
