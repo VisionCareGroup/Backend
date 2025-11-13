@@ -158,7 +158,7 @@ namespace VisionCareCore.User.Infraestructure.Tokens.JWT.Services
             if (existingToken != null)
             {
                 existingToken.Token = refreshToken;
-                existingToken.ExpiryDate = DateTime.UtcNow.AddDays(7);
+                existingToken.ExpiryDate = DateTime.UtcNow.AddDays(30);
                 await _refreshTokenRepository.UpdateAsync(existingToken); // Asegurar que se actualiza
             }
             else
@@ -168,7 +168,7 @@ namespace VisionCareCore.User.Infraestructure.Tokens.JWT.Services
                     Id = Guid.NewGuid(),
                     UserId = userId,
                     Token = refreshToken,
-                    ExpiryDate = DateTime.UtcNow.AddDays(7)
+                    ExpiryDate = DateTime.UtcNow.AddDays(30)
                 };
                 await _refreshTokenRepository.AddAsync(newRefreshToken);
             }
