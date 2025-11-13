@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KMg4JI9A7Ao=",
+  "dgSpecHash": "yR/vzXq0fY0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Moises\\RiderProjects\\VisionCareCore\\VisionCareCore\\VisionCareCore.csproj",
+  "projectFilePath": "C:\\Users\\Moises\\OneDrive\\OneDrive - Universidad Peruana de Ciencias\\Desktop\\VisionBackend\\Backend\\VisionCareCore\\VisionCareCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Moises\\.nuget\\packages\\azure.ai.vision.imageanalysis\\1.0.0\\azure.ai.vision.imageanalysis.1.0.0.nupkg.sha512",
     "C:\\Users\\Moises\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
@@ -266,7 +266,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "message": "El paquete \"Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration 3.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "Microsoft.Configuration.ConfigurationBuilders.AzureAppConfiguration",
       "targetGraphs": [
         "net8.0"
@@ -276,7 +276,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.Configuration.ConfigurationBuilders.Base 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "message": "El paquete \"Microsoft.Configuration.ConfigurationBuilders.Base 3.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "Microsoft.Configuration.ConfigurationBuilders.Base",
       "targetGraphs": [
         "net8.0"
